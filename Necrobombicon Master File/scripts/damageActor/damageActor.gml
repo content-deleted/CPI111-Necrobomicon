@@ -15,7 +15,6 @@ var kTime = argument5;
 
 if (!actor.isInvincible)
 {
-	show_debug_message("Actor " + string(actor) + "received " + string(damageDealt) + "damage.");
 	// Subtract health
 	actor.healthCurrent-= damageDealt;
 	actor.isInvincible = true;//this is reset in the actor animation end event

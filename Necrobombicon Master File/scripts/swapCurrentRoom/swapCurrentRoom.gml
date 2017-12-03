@@ -16,6 +16,7 @@ maxTime = maxTimeData[newRoom];
 
 bombBag = bombBagData[newRoom];
 maxBombs = maxBombsData[newRoom];
+currentBombs = maxBombs;
 
 bombMagnet = bombMagnetData[newRoom];
 
