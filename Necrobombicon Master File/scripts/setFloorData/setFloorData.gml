@@ -77,7 +77,8 @@ break;
 //get information about actors in rooms
 
 with(Enemy_Obj){
-	roomController.enemysData[actorRoom]++;
+	if(mustDestroy)
+		roomController.enemysData[actorRoom]++;
 }
 var i;
 for(i = 1; i<=rooms; i++;){
