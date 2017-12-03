@@ -7,6 +7,7 @@ if (healthCurrent <= 0)
 		with(instance_create_layer(x,y,"Instances",bone_projectile_obj)) {
 			intendedSpeed = other.boneSpeed;
 			intendedDir = (i/other.bones)*360;
+			color = other.color
 		}
 	}
 	roomController.enemys--;

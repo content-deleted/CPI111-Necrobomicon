@@ -5,5 +5,5 @@ ActorPosition();
 
 image_blend = color //Use instance variable color
 if(isInvincible) {
-	image_blend = c_red; //Override for damage
+	image_blend = (color=c_red) ? c_orange : c_red //Override for damage
 }
