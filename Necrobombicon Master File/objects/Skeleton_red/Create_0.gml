@@ -3,4 +3,4 @@
 event_inherited()
 color = c_red
 healthMax = 2
-healthCurrent = healthMax
+healthCurrent = healthMax;

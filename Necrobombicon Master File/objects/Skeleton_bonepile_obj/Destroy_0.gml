@@ -8,10 +8,11 @@ if (healthCurrent <= 0)
 			intendedSpeed = other.boneSpeed;
 			intendedDir = (i/other.bones)*360;
 			color = other.color
+			
 		}
 	}
 	roomController.enemys--;
-	particleEffects(skeleton_hurt);
+	particleEffects(skeleton_hurt, color);
 }
 /*
 with(instance_create_layer(x,y,"Instances",bone_projectile_obj))
