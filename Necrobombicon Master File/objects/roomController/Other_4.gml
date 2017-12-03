@@ -19,6 +19,14 @@ rightBound=0;
 hScroll = false;
 vScroll = false;
 
+//enum containing the types of special tiles
+enum floorTileId {
+	null,
+	spikes,
+	ice,
+	pit
+}
+
 // set up the room variables
 global.floorNum = room;
 currentRoom = getActorRoom(Player_obj);

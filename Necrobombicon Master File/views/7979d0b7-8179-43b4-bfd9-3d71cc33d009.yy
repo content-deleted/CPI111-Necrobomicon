@@ -8,7 +8,8 @@
         "b23f0b5c-c809-4cb4-8937-f779a6132cb1",
         "ba46ab12-86b8-4b51-8366-58194e590588",
         "3b1a9465-dd14-4cf0-91a5-b6083a5d8651",
-        "c586eeea-c381-4e92-a683-36e0a1d4f1df"
+        "c586eeea-c381-4e92-a683-36e0a1d4f1df",
+        "3f17c52b-077c-4716-b28d-b50799030220"
     ],
     "filterType": "GMScript",
     "folderName": "Standard Actor Scripts",
