@@ -1,18 +1,18 @@
 {
-    "id": "e037d0d4-4b43-4509-989d-f89f9cc5492a",
+    "id": "deacfa04-aa9a-4290-8897-959211babc41",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "checkpoint1",
+    "name": "health_pack",
     "eventList": [
         {
-            "id": "b1a48125-9fd8-40aa-9de9-afc6057d1e37",
+            "id": "d7fce101-9f65-4282-b1f7-48ca5a38823c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "e4a622a6-3eb7-4a22-9597-4ed73d9d99ee",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "e037d0d4-4b43-4509-989d-f89f9cc5492a"
+            "m_owner": "deacfa04-aa9a-4290-8897-959211babc41"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

@@ -2,7 +2,7 @@
     "id": "e037d0d4-4b43-4509-989d-f89f9cc5492a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "checkpoint1",
+    "name": "health_max",
     "eventList": [
         {
             "id": "b1a48125-9fd8-40aa-9de9-afc6057d1e37",
@@ -12,6 +12,16 @@
             "collisionObjectId": "e4a622a6-3eb7-4a22-9597-4ed73d9d99ee",
             "enumb": 0,
             "eventtype": 4,
+            "m_owner": "e037d0d4-4b43-4509-989d-f89f9cc5492a"
+        },
+        {
+            "id": "10730551-9cc2-49e4-83fc-7d28707c262b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "e037d0d4-4b43-4509-989d-f89f9cc5492a"
         }
     ],
@@ -31,6 +41,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "82719532-705d-4078-9fc8-c3c823457a5d",
+    "spriteId": "74992d24-c347-4419-8bff-9bbd03a09fd8",
     "visible": true
 }

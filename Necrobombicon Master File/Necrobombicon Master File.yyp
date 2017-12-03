@@ -1055,6 +1055,14 @@
             }
         },
         {
+            "Key": "905b3aec-1cd8-43ba-a603-5ef0d1023c0a",
+            "Value": {
+                "id": "cb7957b6-7dae-469e-91a6-c6498bac61e9",
+                "resourcePath": "views\\905b3aec-1cd8-43ba-a603-5ef0d1023c0a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "91dfdfc9-2248-4bf4-8433-8cd94d67a53f",
             "Value": {
                 "id": "482fdfd0-eae1-40f6-9627-045466b48406",
@@ -1588,6 +1596,22 @@
                 "id": "16519fa3-29f7-493c-8713-91da0b07628f",
                 "resourcePath": "views\\dd300180-2a4d-4ff8-afd4-3392cf3d6ec9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "deacfa04-aa9a-4290-8897-959211babc41",
+            "Value": {
+                "id": "3dbf3fe1-54af-4dae-be9f-6e030d5ee2b0",
+                "resourcePath": "objects\\health_pack_1use\\health_pack_1use.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e037d0d4-4b43-4509-989d-f89f9cc5492a",
+            "Value": {
+                "id": "0a6dc3fe-4e30-4c94-bc27-72c271577adf",
+                "resourcePath": "objects\\health_max\\health_max.yy",
+                "resourceType": "GMObject"
             }
         },
         {

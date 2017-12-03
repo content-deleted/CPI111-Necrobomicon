@@ -1,0 +1,1 @@
+restoreAmount = 20;
