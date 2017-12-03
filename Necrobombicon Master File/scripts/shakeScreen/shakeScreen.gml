@@ -5,7 +5,14 @@
 
 with(roomController){
 	//exit if we would be overriding a stronger screenshake
-	if (shakescreen && (verticalStrength > argument0 || horizontalStrength > argument1)) {exit}
+	if (shakescreen && (verticalStrength > argument0 || horizontalStrength > argument1)) {
+		if (!shakeDecelerating) {
+			verticalStrength += argument0
+			horizontalStrength += argument1
+			shakeDuration += argument2
+		}
+		exit
+	}
 	
 	shakescreen = true
 	

@@ -22,4 +22,7 @@ if(isSolid)
 			isCollidingY = true;
 		}
 	}
+	
+	if(isCollidingX) {event_user(1)}
+	if(isCollidingY) {event_user(2)}
 }

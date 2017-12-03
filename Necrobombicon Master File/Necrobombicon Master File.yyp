@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "32a1b689-1fc2-436e-ae9d-56178de7c35e",
+            "Value": {
+                "id": "9838ae42-2d5f-47bf-ad18-df1f7cdabb8f",
+                "resourcePath": "shaders\\testShader\\testShader.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "32ac9302-a62f-45b3-ae66-f60eae7b7cdb",
             "Value": {
                 "id": "3671f396-d280-4fa0-af78-769ece772ffc",
@@ -460,6 +468,14 @@
                 "id": "241cbe26-fe57-4b31-8054-361485178d9a",
                 "resourcePath": "scripts\\ActorCheckSpecialFloorTiles\\ActorCheckSpecialFloorTiles.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3fafca23-03bd-44c9-87c8-ddc5c8328bb9",
+            "Value": {
+                "id": "219128e7-07f5-414b-addd-d380b78a92ad",
+                "resourcePath": "objects\\ScreenShader\\ScreenShader.yy",
+                "resourceType": "GMObject"
             }
         },
         {
