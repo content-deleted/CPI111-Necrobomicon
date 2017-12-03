@@ -6,11 +6,11 @@ eventFlags[0] = false;
 //enum containing types of bombs used in many places
 enum bombType {
 	base,
-	remote,
-	fuse,
-	grenade,
+	bounce,
 	rocket,
-	bounce
+	fuse,
+	remote,
+	grenade
 }
 
 //camera control vars

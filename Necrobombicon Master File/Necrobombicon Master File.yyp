@@ -1519,6 +1519,14 @@
             }
         },
         {
+            "Key": "d4d0bd5d-3f59-4bc3-be66-19cd54e3bf51",
+            "Value": {
+                "id": "4ab85248-5953-4f1b-8ce1-c7239d918de8",
+                "resourcePath": "objects\\goblin_obj\\goblin_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d548e9f6-5cdd-4842-aabe-26e30563eebd",
             "Value": {
                 "id": "446bdd16-44b6-472d-9c2d-a90b7724f0f2",

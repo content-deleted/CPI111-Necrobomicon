@@ -6,10 +6,10 @@ if (global.actor_allowUpdate)
 	{
 		if (roomController.currentBombs > 0)
 		{
-			BombControl();
+			BombControl(roomController.currentBombType);
 			roomController.currentBombs--;
 		}
 	}
 	else
-		BombControl();
+		BombControl(roomController.currentBombType);
 }
