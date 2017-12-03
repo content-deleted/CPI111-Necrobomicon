@@ -2,7 +2,7 @@
 //here we reset the arrays
 bombTypeData = 0;
 timedRoomData = 0;
-maxTimeData = 0;
+maxTimeData = 0; // controls speed of player's health loss. 1 means 1 hp per 1 second, 2 means 1 hp per 2 seconds
 bombBagData = 0;
 maxBombsData = 0;
 bombMagnetData = 0;
@@ -39,7 +39,8 @@ case 1://this is the first floor of the game
 	setRoomLocks(roomNum);
 
 	setDefaultMods(roomNum);
-	bombMagnetData[roomNum] = true;
+	timedRoomData[roomNum] = true;
+	maxTimeData[roomNum] = 1.2;
 	/////////////////////////////////////////////////////
 	//room 3 start
 	roomNum = 3; 

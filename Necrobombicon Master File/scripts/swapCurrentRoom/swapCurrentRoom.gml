@@ -12,6 +12,8 @@ currentDialogue = roomDialogueData[newRoom];
 
 //Room Modifiers
 timedRoom = timedRoomData[newRoom];
+if (timedRoom)
+	startDOT = true;
 maxTime = maxTimeData[newRoom];
 
 bombBag = bombBagData[newRoom];

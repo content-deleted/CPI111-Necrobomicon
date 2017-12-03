@@ -13,6 +13,11 @@ else
 
 if(enemys = 0 && enemysData[currentRoom] > 0){roomKeys++}
 
+if(startDOT)
+{
+	alarm[4] = room_speed * maxTime;
+	startDOT = false;
+}
 
 // death
 if (Player_obj.healthCurrent <= 0 && playing)

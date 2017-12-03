@@ -65,6 +65,7 @@ enemys = 0;
 //Room Modifiers
 timedRoom = false;
 maxTime = 0;
+startDOT = false;
 
 bombBag= false;
 maxBombs= 0;
