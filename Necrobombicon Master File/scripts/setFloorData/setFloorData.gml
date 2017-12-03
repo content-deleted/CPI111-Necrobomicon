@@ -35,7 +35,7 @@ case 1://this is the first floor of the game
 	roomNum = 2; 
 	roomDialogueData[roomNum] = "HELLO AGAIN!";
 
-	bombTypeData[roomNum] = bombType.remote;
+	bombTypeData[roomNum] = bombType.bounce;
 	setRoomLocks(roomNum);
 
 	setDefaultMods(roomNum);
@@ -45,6 +45,7 @@ case 1://this is the first floor of the game
 	roomNum = 3; 
 	roomDialogueData[roomNum] = "This room is a tall boi";
 	
+	roomDialogueData[roomNum] = "HELLO AGAIN!";
 	bombTypeData[roomNum] = bombType.rocket;
 	setRoomLocks(roomNum);
 	
@@ -55,6 +56,7 @@ case 1://this is the first floor of the game
 	roomNum = 4; 
 	roomDialogueData[roomNum] = "this room is a test";
 	
+	roomDialogueData[roomNum] = "HELLO AGAIN!";
 	bombTypeData[roomNum] = bombType.fuse;
 	setRoomLocks(roomNum);
 	
@@ -78,7 +80,8 @@ break;
 //get information about actors in rooms
 
 with(Enemy_Obj){
-	roomController.enemysData[actorRoom]++;
+	if(mustDestroy)
+		roomController.enemysData[actorRoom]++;
 }
 var i;
 for(i = 1; i<=rooms; i++;){

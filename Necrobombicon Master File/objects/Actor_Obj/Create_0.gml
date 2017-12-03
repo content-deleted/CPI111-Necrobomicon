@@ -38,6 +38,8 @@ isInvincible = false;//true = no damage, no knockback
 attacking = false;//used for attack animations and cooldowns
 damage = 0; //damage dealt to player by actor
 
+color = c_white //the Actor's image_blend color
+
 //array to hold all sprites (must be filled out individually in all actor create events!)
 enum anim {
 	idle = 0,
