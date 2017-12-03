@@ -5,8 +5,8 @@ if (healthCurrent <= 0)
 	var i;
 	for (i = 0; i < bones; i++) {
 		with(instance_create_layer(x,y,"Instances",bone_projectile_obj)) {
-			intendedSpeed = boneSpeed;
-			intendedDir = (i/bones)*360;
+			intendedSpeed = other.boneSpeed;
+			intendedDir = (i/other.bones)*360;
 		}
 	}
 	roomController.enemys--;
