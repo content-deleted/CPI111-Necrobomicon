@@ -13,7 +13,7 @@ if (healthCurrent <= 0)
 	}
 	roomController.enemys--;
 	particleEffects(skeleton_hurt, color);
+	playSoundAtSelf(sfx_skeletonHit)
+	playSoundAtSelf(sfx_bonetoss)
 }
-playSoundAtSelf(sfx_bonetoss)
 playSoundAtSelf(sfx_skeletonCollapse)
-playSoundAtSelf(sfx_skeletonHit)

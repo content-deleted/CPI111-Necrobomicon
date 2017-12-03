@@ -12,7 +12,7 @@ with(Actor_Obj)
 {
 	if(distance_to_object(other)<=0)
 	{
-		damageActor(self,damage,true, false, false, false);
+		damageActor(self,other.damage,true, false, false, false);
 		addVector(self, (radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
 	}	
 }
