@@ -3,7 +3,7 @@
 var previousRoom = argument0;
 var newRoom = argument1;
 
-//show_debug_message("going from room " +string(previousRoom) + " to " + string(newRoom));
+show_debug_message("going from room " +string(previousRoom) + " to " + string(newRoom));
 
 currentBombType = bombTypeData[newRoom];
 
@@ -30,7 +30,7 @@ roomCleared = roomClearedData[newRoom];
 enemys = enemysData[newRoom];
 
 //swap active actors
-swapActiveActors(previousRoom,newRoom);
+swapActiveActors();
 
 //handle roomEvents
 if(eventControllersData[newRoom] != pointer_null){//set the data
