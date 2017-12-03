@@ -4,5 +4,6 @@ ActorAnimation();
 ActorPosition();
 
 image_blend = color //Use instance variable color
-if(isInvincible)
+if(isInvincible) {
 	image_blend = c_red; //Override for damage
+}
