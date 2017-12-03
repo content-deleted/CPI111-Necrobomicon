@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Update when room changes
 // You can write your code in this editor
 if (roomDialogueMemory != roomController.currentDialogue) {
 	textContent = ""
