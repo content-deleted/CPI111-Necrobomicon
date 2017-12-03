@@ -59,3 +59,7 @@ setFloorData();
 
 swapCurrentRoom(0,1);
 
+//cue the music, baby
+switch (global.floorNum) {
+	case 1: audio_play_sound(mus_floor1,0,true); break
+}

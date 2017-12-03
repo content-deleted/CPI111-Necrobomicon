@@ -21,6 +21,7 @@ switch (state) {
 		intendedDir = angle
 		if (timer < 0) {
 			intendedSpeed = (intendedSpeed > 0) ? 0 : 5 //alternately chase and stop
+			playSoundAtSelf(choose(sfx_skeletonGroan1,sfx_skeletonGroan2))
 			timer = room_speed
 		}
 		if (intendedSpeed<5 && intendedSpeed>0) {intendedSpeed = 5} //update speed if coming from another state
@@ -31,6 +32,7 @@ switch (state) {
 		intendedSpeed = 1.5
 		if (timer < 0) {
 			ThrowProjectile(bone_projectile_obj)
+			playSoundAtSelf(sfx_bonetoss)
 			timer = room_speed
 		}
 	break
@@ -39,6 +41,7 @@ switch (state) {
 		if (timer < 0) {
 			intendedDir = irandom(4)*90
 			intendedSpeed = (intendedSpeed > 0) ? 0 : 3 //alternately move and stop
+			if (random(3)<1) {playSoundAtSelf(choose(sfx_skeletonGroan1,sfx_skeletonGroan2))}
 			timer = room_speed
 		}
 	break

@@ -14,24 +14,6 @@ if (healthCurrent <= 0)
 	roomController.enemys--;
 	particleEffects(skeleton_hurt, color);
 }
-/*
-with(instance_create_layer(x,y,"Instances",bone_projectile_obj))
-{
-	intendedSpeed = 5;
-	intendedDir = 0;
-}
-with(instance_create_layer(x,y,"Instances",bone_projectile_obj))
-{
-	intendedSpeed = 5;
-	intendedDir = 90;
-}
-with(instance_create_layer(x,y,"Instances",bone_projectile_obj))
-{
-	intendedSpeed = 5;
-	intendedDir = 180;
-}
-with(instance_create_layer(x,y,"Instances",bone_projectile_obj))
-{
-	intendedSpeed = 5;
-	intendedDir = 270;
-}
+playSoundAtSelf(sfx_bonetoss)
+playSoundAtSelf(sfx_skeletonCollapse)
+playSoundAtSelf(sfx_skeletonHit)

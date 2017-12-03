@@ -76,4 +76,5 @@ if(playAnim)
 {
 	attacking = true;
 	image_index = 0;
+	audio_play_sound(choose(sfx_gjThrow1),1,false)
 }

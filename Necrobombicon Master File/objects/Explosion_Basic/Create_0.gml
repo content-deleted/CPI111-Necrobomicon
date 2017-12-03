@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-
+playSoundAtSelf(sfx_expBasic)
 //destroy destructable tiles
 destroyTileColliding(self,0,0);
 
