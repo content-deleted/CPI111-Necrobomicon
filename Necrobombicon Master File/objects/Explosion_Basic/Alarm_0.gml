@@ -4,7 +4,7 @@
 //sfx
 playSoundAtSelf(sfx_expBasic)
 //screenshake
-shakeScreen(12,12,0.1*room_speed)
+shakeScreen(12,12,0.1*room_speed,false)
 
 var radius = sprite_get_width(sprite_index)/2
 

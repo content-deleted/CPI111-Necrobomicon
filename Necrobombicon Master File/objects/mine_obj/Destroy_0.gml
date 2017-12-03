@@ -4,6 +4,7 @@ event_inherited()
 with(instance_create_layer(x,y,"Instances",Explosion_Basic)) {
 	image_xscale=4
 	image_yscale=image_xscale
+	image_speed /= 2
 	damage=4
-	shakeScreen(20,20,0.4)
 }
+shakeScreen(80,20,1*room_speed,true)

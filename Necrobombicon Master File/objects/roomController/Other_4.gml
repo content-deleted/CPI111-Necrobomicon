@@ -13,16 +13,26 @@ enum bombType {
 	bounce
 }
 
-//camera control var
-topBound=0;
-bottomBound=0;
-leftBound=0;
-rightBound=0;
-hScroll = false;
-vScroll = false;
-shakescreen = false;
-shakeV = false;
-shakeH = false;
+//camera control vars
+
+topBound = 0
+bottomBound = 0
+leftBound = 0
+rightBound = 0
+
+hScroll = false
+vScroll = false
+
+shakescreen = false
+shakeDecelerating = false
+shakeDuration = 0
+horizontalStrength = 0
+verticalStrength = 0
+shakeOrigH = 0
+shakeOrigV = 0
+//i don't think these actually get used anywhere but i'm not sure
+shakeV = false
+shakeH = false
 
 //enum containing the types of special tiles
 enum floorTileId {

@@ -1,10 +1,21 @@
 ///@param verticalStrength
 ///@param horizontalStrength
 ///@param duration
-with(roomController){
-	shakescreen = true;
-	verticalStrength = argument0;
-	horizontalStrength = argument1;
+///@param decelerating?
 
-	alarm_set(1,argument2);
+with(roomController){
+	//exit if we would be overriding a stronger screenshake
+	if (shakescreen && (verticalStrength > argument0 || horizontalStrength > argument1)) {exit}
+	
+	shakescreen = true
+	
+	shakeOrigV = argument0
+	shakeOrigH = argument1
+	verticalStrength = shakeOrigV
+	horizontalStrength = shakeOrigH
+	
+	shakeDuration = argument2
+	shakeDecelerating = argument3
+	
+	alarm[1] = shakeDuration
 }
