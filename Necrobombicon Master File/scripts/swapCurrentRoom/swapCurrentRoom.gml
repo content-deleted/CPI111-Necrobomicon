@@ -26,8 +26,8 @@ roomCleared = roomClearedData[newRoom];
 enemys = enemysData[newRoom];
 
 //make sure the previous room stays cleared
-roomLocksData[currentRoom] = 0;
-roomKeysData[currentRoom] = 0;
+roomLocksData[currentRoom] = roomLocks;
+roomKeysData[currentRoom] = roomKeys;
 
 //swap active actors
 swapActiveActors(previousRoom,newRoom);

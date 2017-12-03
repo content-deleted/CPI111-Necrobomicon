@@ -43,6 +43,7 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 3 start
 	roomNum = 3; 
+	roomDialogueData[roomNum] = "This room is a tall boi";
 	
 	bombTypeData[roomNum] = bombType.rocket;
 	setRoomLocks(roomNum);
@@ -52,6 +53,7 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 4 start
 	roomNum = 4; 
+	roomDialogueData[roomNum] = "this room is a test";
 	
 	bombTypeData[roomNum] = bombType.fuse;
 	setRoomLocks(roomNum);
@@ -61,6 +63,7 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 5 start
 	roomNum = 5; 
+	roomDialogueData[roomNum] = "this room is a wide boi";
 	
 	bombTypeData[roomNum] = bombType.base;
 	setRoomLocks(roomNum);
