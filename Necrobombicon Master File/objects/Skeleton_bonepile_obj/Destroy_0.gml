@@ -10,6 +10,7 @@ if (healthCurrent <= 0)
 		}
 	}
 	roomController.enemys--;
+	particleEffects(skeleton_hurt);
 }
 /*
 with(instance_create_layer(x,y,"Instances",bone_projectile_obj))
