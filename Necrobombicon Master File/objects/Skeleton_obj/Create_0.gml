@@ -8,6 +8,7 @@ enum FSM {
 	chase
 }
 state = FSM.patrol
+timer = 0
 
 timer = 0;
 randQuat = irandom_range(1,4);
