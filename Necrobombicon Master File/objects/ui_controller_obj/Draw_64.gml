@@ -35,6 +35,8 @@ switch(roomController.currentBombType)
 	case bombType.rocket: draw_sprite(rocketBomb,0,currentX,currentY); break;
 	default: draw_sprite(baseBomb,0,currentX,currentY); break;  // includes base bomb
 }
+if (roomController.bombBag)
+	draw_text(currentX + 10,currentY,string(roomController.currentBombs));
 currentX -= 48;
 currentY -= 48;
 currentX += sprite_get_width(sigil_clear_spr) + 10;

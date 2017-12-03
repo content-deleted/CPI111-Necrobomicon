@@ -61,6 +61,7 @@ maxTime = 0;
 
 bombBag= false;
 maxBombs= 0;
+currentBombs = 0;
 
 bombMagnet= false;
 

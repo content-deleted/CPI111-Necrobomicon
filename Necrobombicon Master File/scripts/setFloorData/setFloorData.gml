@@ -50,6 +50,8 @@ case 1://this is the first floor of the game
 	setRoomLocks(roomNum);
 	
 	setDefaultMods(roomNum);
+	bombBagData[roomNum] = true;
+	maxBombsData[roomNum] = 5;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 4 start
