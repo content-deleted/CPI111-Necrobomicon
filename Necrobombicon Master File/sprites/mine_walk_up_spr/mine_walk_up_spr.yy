@@ -13,6 +13,7 @@
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
+    "edgeFiltering": false,
     "frames": [
         {
             "id": "054dada4-ddec-4685-a192-73746e133c39",
@@ -76,7 +77,8 @@
         }
     ],
     "origin": 4,
-    "playbackSpeed": 7,
+    "originLocked": false,
+    "playbackSpeed": 8,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,

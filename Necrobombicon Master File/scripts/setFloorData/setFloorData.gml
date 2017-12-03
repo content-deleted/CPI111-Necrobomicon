@@ -35,7 +35,7 @@ case 1://this is the first floor of the game
 	roomNum = 2; 
 	roomDialogueData[roomNum] = "HELLO AGAIN!";
 
-	bombTypeData[roomNum] = bombType.remote;
+	bombTypeData[roomNum] = bombType.bounce;
 	setRoomLocks(roomNum);
 
 	setDefaultMods(roomNum);
@@ -44,6 +44,7 @@ case 1://this is the first floor of the game
 	//room 3 start
 	roomNum = 3; 
 	
+	roomDialogueData[roomNum] = "HELLO AGAIN!";
 	bombTypeData[roomNum] = bombType.rocket;
 	setRoomLocks(roomNum);
 	
@@ -53,6 +54,7 @@ case 1://this is the first floor of the game
 	//room 4 start
 	roomNum = 4; 
 	
+	roomDialogueData[roomNum] = "HELLO AGAIN!";
 	bombTypeData[roomNum] = bombType.fuse;
 	setRoomLocks(roomNum);
 	
