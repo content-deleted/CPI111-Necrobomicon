@@ -14,7 +14,7 @@ for (i=0;i<width;i+=particle_Size)
 		particle.yy = j;
 		particle.spr = objectID; 
 		particle.size = particle_Size;
-		particle.colour = c_red;
+		particle.colour = argument1;
 		particle.image_speed = 0;
 		
 	}

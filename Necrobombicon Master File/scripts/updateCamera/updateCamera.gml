@@ -42,5 +42,10 @@ if(camera_get_view_border_x(CameraId) != xB || camera_get_view_border_y(CameraId
 	camera_set_view_border(CameraId,xB,yB);
 	
 //code for shaking the screen
-if(shakescreen)
-	camera_set_view_pos(CameraId,leftBound,camera_get_view_y(CameraId));
+if(shakescreen){
+	camera_set_view_pos(CameraId,sX+irandom_range(-horizontalStrength,horizontalStrength),sY+irandom_range(-verticalStrength,verticalStrength));
+}
+else{
+	sX = camera_get_view_x(CameraId);
+    sY = camera_get_view_y(CameraId);	
+}

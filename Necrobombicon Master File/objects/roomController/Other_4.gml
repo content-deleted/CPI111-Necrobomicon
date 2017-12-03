@@ -21,6 +21,8 @@ rightBound=0;
 hScroll = false;
 vScroll = false;
 shakescreen = false;
+shakeV = false;
+shakeH = false;
 
 //enum containing the types of special tiles
 enum floorTileId {

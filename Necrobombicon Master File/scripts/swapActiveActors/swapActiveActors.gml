@@ -8,6 +8,6 @@ instance_activate_object(Actor_Obj);
 with(Actor_Obj){
 	currentRoom = getActorRoom(self);
 	if(currentRoom != newRoom){
-		instance_deactivate_object(self)
+		instance_deactivate_object(self);
 	}
 }
