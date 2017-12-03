@@ -15,6 +15,7 @@ var kTime = argument5;
 
 if (!actor.isInvincible)
 {
+	
 	// Subtract health
 	actor.healthCurrent-= damageDealt;
 	actor.isInvincible = true;//this is reset in the actor animation end event
@@ -22,4 +23,7 @@ if (!actor.isInvincible)
 	// Add knockback vector 
 	if(knockback)
 		addVector(actor,kMagnitude,kDirection,kTime,"knockback");
+		
+	with(actor) {event_user(0)} //damage event
 }
+
