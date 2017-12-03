@@ -44,6 +44,31 @@ if(camera_get_view_border_x(CameraId) != xB || camera_get_view_border_y(CameraId
 //code for shaking the screen
 if(shakescreen){
 	camera_set_view_pos(CameraId,sX+irandom_range(-horizontalStrength,horizontalStrength),sY+irandom_range(-verticalStrength,verticalStrength));
+	
+	//if we have a delerating shake, a bunch of math happens
+	if (shakeDecelerating) {
+		//0 is start of screenshake, 1 is end of screenshake
+		var lerpAmount = (shakeDuration-alarm[1])/shakeDuration
+		
+		//ease-out
+		lerpAmount = sqrt(lerpAmount)
+
+		
+		//ease-in
+		//lerpAmount = 1 - cos(lerpAmount * pi * 0.5)
+		
+		//lerp
+		horizontalStrength = lerp(shakeOrigH,0,lerpAmount)
+		verticalStrength = lerp(shakeOrigV,0,lerpAmount)
+		
+		//bound
+		horizontalStrength = max(horizontalStrength,0)
+		verticalStrength = max(verticalStrength,0)
+		
+		//debug
+		show_debug_message("horizontal shake strength: " + string(horizontalStrength) + " lerp amount: " + string(lerpAmount))
+	}
+	
 }
 else{
 	sX = camera_get_view_x(CameraId);
