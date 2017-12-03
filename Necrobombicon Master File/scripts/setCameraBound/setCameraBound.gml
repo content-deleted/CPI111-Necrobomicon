@@ -70,12 +70,13 @@ if(rightBound - leftBound > tWidth)
 //camera_set_view_pos(CameraId,
 //					clamp( camera_get_view_x(CameraId), rightBound, leftBound),
 //					clamp( camera_get_view_y(CameraId), topBound, bottomBound));
-					
+
+/*					
 show_debug_message("rightBound: " + string(rightBound));
 show_debug_message("leftBound: " + string(leftBound));
 show_debug_message("topBound: " + string(topBound));
 show_debug_message("bottomBound: " + string(bottomBound));
-
+*/
 
 //set borders for following the player
 //if the room is size 1 we leave them zero
