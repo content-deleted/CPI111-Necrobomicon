@@ -1,10 +1,9 @@
-objectID = argument0;
+var objectID = argument0;
+var color = argument1;
+var width = sprite_get_width(objectID);
+var height = sprite_get_height(objectID);
 
-
-width = sprite_get_width(objectID);
-height = sprite_get_height(objectID);
-
-particle_Size = irandom_range(15,25);
+var particle_Size = irandom_range(15,25);
 
 for (i=0;i<width;i+=particle_Size) 
 { 
@@ -15,7 +14,7 @@ for (i=0;i<width;i+=particle_Size)
 		particle.yy = j;
 		particle.spr = objectID; 
 		particle.size = particle_Size;
-		particle.image_alpha = 1;
+		particle.colour = c_red;
 		particle.image_speed = 0;
 		
 	}
