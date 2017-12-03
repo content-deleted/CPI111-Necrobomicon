@@ -22,8 +22,9 @@ with(Actor_Obj)
 			canMove = false;
 			xSpeed = 0;
 			ySpeed = 0;
-			image_speed = 0;
-			image_blend = c_blue;
+			//Recolor now happens in Actor_Obj Pre-Draw
+			//image_speed = 0;
+			//image_blend = c_blue;
 			alarm[3] = room_speed * freezeSeconds;
 			addVector(self,(radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
 		}
