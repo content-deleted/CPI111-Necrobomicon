@@ -5,10 +5,10 @@ if (!inWall)
 	switch (Player_obj.currentSigType)
 	{
 		case sigType.air: 
-			instance_create_layer(x,y, "instances", Explosion_Air); break;
+			instance_create_layer(x,y, "Explosions", Explosion_Air); break;
 		case sigType.freeze:
-			instance_create_layer(x,y, "instances", Explosion_Freeze); break;
+			instance_create_layer(x,y, "Explosions", Explosion_Freeze); break;
 		default: // includes sigType.clear
-			instance_create_layer(x,y, "instances", Explosion_Basic);
+			instance_create_layer(x,y, "Explosions", Explosion_Basic);
 	}
 }

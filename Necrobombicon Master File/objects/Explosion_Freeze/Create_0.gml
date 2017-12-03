@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 
 var radius = sprite_get_width(sprite_index);
 var freezeSeconds = 4;

@@ -1,6 +1,8 @@
 /// @description Instantiate
 global.saved = false;
 playing = true;
+eventFlags[0] = false;
+
 //enum containing types of bombs used in many places
 enum bombType {
 	base,
@@ -18,6 +20,7 @@ leftBound=0;
 rightBound=0;
 hScroll = false;
 vScroll = false;
+shakescreen = false;
 
 //enum containing the types of special tiles
 enum floorTileId {

@@ -4,9 +4,8 @@
     "mvc": "1.1",
     "name": "dd300180-2a4d-4ff8-afd4-3392cf3d6ec9",
     "children": [
-        "03033d56-6583-4a4e-930a-532c1082e34a",
-        "e3cef798-45fe-4646-9ac3-81ae4b97a0d0",
-        "7e4a0df7-09bb-416a-a176-960a0638e3b7"
+        "2719ba95-0a0a-433c-aa30-bbb5adea2fc6",
+        "4831a4c9-c95c-4ccd-b90a-94b62428d6e4"
     ],
     "filterType": "GMObject",
     "folderName": "Puzzles",

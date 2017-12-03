@@ -19,18 +19,34 @@ maxBombs = maxBombsData[newRoom];
 
 bombMagnet = bombMagnetData[newRoom];
 
+//make sure the previous room stays cleared
+roomLocksData[previousRoom] = roomLocks;
+roomKeysData[previousRoom] = roomKeys; 
+
 //room cleared data
 roomLocks = roomLocksData[newRoom];
 roomKeys = roomKeysData[newRoom];
 roomCleared = roomClearedData[newRoom];
 enemys = enemysData[newRoom];
 
-//make sure the previous room stays cleared
-roomLocksData[currentRoom] = roomLocks;
-roomKeysData[currentRoom] = roomKeys;
-
 //swap active actors
 swapActiveActors(previousRoom,newRoom);
+
+//handle roomEvents
+if(eventControllersData[newRoom] != pointer_null){//set the data
+	with(eventControllersData[newRoom]){
+		for(var i = dataStart; i<dataEnd; i++)
+			roomController.eventFlags[i] = roomController.eventFlagsData[getActorRoom(self), i];
+    }
+}
+
+if(eventControllersData[previousRoom] != pointer_null){//set the data
+	with(eventControllersData[previousRoom]){
+		for(var i = dataStart; i<dataEnd; i++)
+			roomController.eventFlagsData[getActorRoom(self), i] = roomController.eventFlags[i];
+    }
+}
+
 
 //finally switch out the room
 currentRoom = newRoom;

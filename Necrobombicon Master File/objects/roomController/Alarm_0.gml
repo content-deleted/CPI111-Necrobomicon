@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description reload on death
 if global.saved 
 	game_load("Save.dat");

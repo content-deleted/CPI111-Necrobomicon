@@ -85,6 +85,21 @@ for(i = 1; i<=rooms; i++;){
 	if(fightData[i] && enemysData[i]>0) roomLocksData[i]++;
 }
 
-with(Puzzle_Obj){
+
+//handle roomEvents
+//for(var i = 0; i<100; i++){
+	eventFlagsData[0,0] = 0;//set the data
+//}
+eventFlags[0] = false;
+for(var i = 0; i<=rooms; i++;)
+	eventControllersData[i] = 0;
 	
+with(RoomEventController){
+	var eventRoom = getActorRoom(self);
+    for(var i = dataStart; i<dataEnd; i++){
+		other.eventFlagsData[eventRoom, i] = false;
+	    other.eventFlags[i] = false;
+	}
+	other.eventControllersData[eventRoom] = self;
+	other.roomLocksData[eventRoom]++;
 }

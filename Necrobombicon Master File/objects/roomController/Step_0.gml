@@ -6,9 +6,11 @@ if(currentRoom != playerRoom)
 	
 updateRoomMods();
 
-if(!roomCleared && roomLocks == roomKeys)
+if(roomLocks <= roomKeys)
 	roomCleared=true;
-	
+else
+	roomCleared = false;
+
 if(enemys = 0 && enemysData[currentRoom] > 0){roomKeys++}
 
 
@@ -20,4 +22,4 @@ if (Player_obj.healthCurrent <= 0 && playing)
 	alarm[0] = 3 * room_speed;
 }
 
-boundCameraToRoom();
+updateCamera();

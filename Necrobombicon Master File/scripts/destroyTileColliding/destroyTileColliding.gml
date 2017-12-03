@@ -3,4 +3,4 @@
 ///@param object
 ///@param offset_x
 ///@param offset_y
-getTileAtPoints(layer_tilemap_get_id("DestructableTiles"), layer_tilemap_get_id("DestructableTiles"), [argument0.bbox_right+argument1,argument0.bbox_top+argument2],[argument0.bbox_right+argument1,argument0.bbox_bottom+argument2],[argument0.bbox_left+argument1,argument0.bbox_top+argument2],[argument0.bbox_left+argument1,argument0.bbox_bottom+argument2])
+setTileAtPoints(layer_tilemap_get_id("DestructableTiles"), layer_tilemap_get_id("DestructableTiles"), [argument0.bbox_right+argument1,argument0.bbox_top+argument2],[argument0.bbox_right+argument1,argument0.bbox_bottom+argument2],[argument0.bbox_left+argument1,argument0.bbox_top+argument2],[argument0.bbox_left+argument1,argument0.bbox_bottom+argument2])
