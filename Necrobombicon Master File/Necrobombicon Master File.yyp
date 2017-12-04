@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "25d7c829-0d57-4597-8cdf-5f4d0f24f2fb",
+            "Value": {
+                "id": "a9125571-4f0d-4990-ae13-b1dc3f6499ca",
+                "resourcePath": "views\\25d7c829-0d57-4597-8cdf-5f4d0f24f2fb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2719ba95-0a0a-433c-aa30-bbb5adea2fc6",
             "Value": {
                 "id": "b8ec7dc8-5035-4f7e-a04b-d0bdfee1816c",
@@ -348,6 +356,14 @@
                 "id": "6d426815-d316-41f7-ac82-e07d6f01d874",
                 "resourcePath": "views\\2b9d2316-7a66-4714-994b-7e9d1617656b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2fb8f17b-a16e-4a0b-bc00-8cf2503dd932",
+            "Value": {
+                "id": "e47bffb4-d853-4eb0-a8a6-f13bed944958",
+                "resourcePath": "sprites\\Landmine_idle_spr\\Landmine_idle_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -531,6 +547,14 @@
             "Value": {
                 "id": "2ccf3e06-1fdd-4a9e-abe9-82a30b573934",
                 "resourcePath": "sprites\\up_idle\\up_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4d5c1974-2e1b-4da7-aaf7-143371180bcf",
+            "Value": {
+                "id": "914ab470-1316-4163-a660-623f7a1cabb7",
+                "resourcePath": "sprites\\Landmine_explode_spr\\Landmine_explode_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1548,6 +1572,14 @@
                 "id": "28ee91e0-d374-42af-8edd-bd92d219ae5f",
                 "resourcePath": "rooms\\Room1\\Room1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d21ac981-ddfc-4c60-8294-1d8b4dc41e82",
+            "Value": {
+                "id": "7bec49fb-4c7e-4482-9959-3386184a780d",
+                "resourcePath": "objects\\Landmine_obj\\Landmine_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

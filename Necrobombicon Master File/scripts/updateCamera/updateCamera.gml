@@ -62,7 +62,7 @@ if(shakescreen){
 		verticalStrength = max(verticalStrength,0)
 		
 		//debug
-		show_debug_message("horizontal shake strength: " + string(horizontalStrength) + " lerp amount: " + string(lerpAmount))
+		//show_debug_message("horizontal shake strength: " + string(horizontalStrength) + " lerp amount: " + string(lerpAmount))
 	}
 	
 }

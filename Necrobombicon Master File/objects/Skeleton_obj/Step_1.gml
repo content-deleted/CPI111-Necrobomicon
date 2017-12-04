@@ -3,6 +3,8 @@
 
 //AI_skeleton()
 
+if (!canMove) {exit}
+
 timer--
 randomize()
 
