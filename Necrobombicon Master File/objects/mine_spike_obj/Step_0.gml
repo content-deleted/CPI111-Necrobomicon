@@ -9,4 +9,4 @@ if (instance_exists(myMine))
 	myMine.y = y + lengthdir_y(mineDis, mineDir);
 }
 else
-	image_speed = 0;
+	instance_destroy()
