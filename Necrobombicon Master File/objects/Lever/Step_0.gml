@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(getActorRoom(Player_obj) == getActorRoom(self))
+{
 if(isLightSwitch)
 {
 	var lightsOffAlpha = .9;
@@ -16,4 +18,5 @@ if(isLightSwitch)
 		if (roomController.currentDarkAlpha != lightsOffAlpha)
 			roomController.currentDarkAlpha = lightsOffAlpha;
 	}
+}
 }
