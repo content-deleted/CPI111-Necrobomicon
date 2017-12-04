@@ -7,9 +7,6 @@ show_debug_message("going from room " +string(previousRoom) + " to " + string(ne
 
 currentBombType = bombTypeData[newRoom];
 
-currentDarkAlpha = darknessLevelData[newRoom];
-isDarknessLevel = isDarknessLevelData[newRoom];
-
 //Update Dialogue
 currentDialogue = roomDialogueData[newRoom];
 
@@ -24,6 +21,11 @@ maxBombs = maxBombsData[newRoom];
 currentBombs = maxBombs;
 
 bombMagnet = bombMagnetData[newRoom];
+
+//Lighting
+isDisco = disco[newRoom]
+currentDarkAlpha = darkAlpha[newRoom]
+currentDarkColor = darkColor[newRoom]
 
 //make sure the previous room stays cleared
 roomLocksData[previousRoom] = roomLocks;

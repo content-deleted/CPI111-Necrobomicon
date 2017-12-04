@@ -72,7 +72,6 @@ maxBombs= 0;
 currentBombs = 0;
 
 bombMagnet= false;
-isDarknessLevel = false;
 
 //now we set the floor data
 setFloorData();

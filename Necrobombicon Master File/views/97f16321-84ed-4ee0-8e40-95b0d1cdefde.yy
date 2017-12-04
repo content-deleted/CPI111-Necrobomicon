@@ -13,7 +13,9 @@
         "0bb7101b-b564-4497-855d-c33078eebafc",
         "f69b6687-b732-4385-a624-4ebdd2fb2464",
         "7fce737e-ffad-43d2-b219-eb9f594fa8ee",
-        "ed0e2251-3ebb-42eb-9680-812aa32973ba"
+        "ed0e2251-3ebb-42eb-9680-812aa32973ba",
+        "b6c02dba-43ec-4a78-bbaa-90a61922ceae",
+        "7c48f8f5-edde-4e58-b315-08ed852c49a1"
     ],
     "filterType": "GMScript",
     "folderName": "Room Control Scripts",

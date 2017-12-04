@@ -1,15 +1,13 @@
 ///@params floor_number
 //here we reset the arrays
 bombTypeData = 0;
-
+// optional modifiers
 timedRoomData = 0;
 maxTimeData = 0; // controls speed of player's health loss. 1 means 1 hp per 1 second, 2 means 1 hp per 2 seconds
 bombBagData = 0;
 maxBombsData = 0;
 bombMagnetData = 0;
-darknessLevelData = .4;
-isDarknessLevelData = 0;
-
+// clear conditions
 roomClearedData = 0;
 roomLocksData = 0;
 roomKeysData = 0;
@@ -25,62 +23,49 @@ case 0: //this is our default case, its just menus and stuff
 break; 
 
 case 1://this is the first floor of the game
+	rooms = 5;//here we set the total number of rooms on the floor
+	var i;
+	for(i=1;i<rooms+1;i++) {setDefaultData(i)}
 	/////////////////////////////////////////////////////
 	//room 1 start
 	roomNum = 1; 
 	roomDialogueData[roomNum] = "HELLO WORLD!";
-	
 	bombTypeData[roomNum] = bombType.remote;
-	setRoomLocks(roomNum);
 	
-	setDefaultMods(roomNum);
+	darkAlpha[roomNum] = 0.7
+	disco[roomNum] = true
 	/////////////////////////////////////////////////////
 	//room2 start
 	roomNum = 2; 
 	roomDialogueData[roomNum] = "HELLO AGAIN!";
-
 	bombTypeData[roomNum] = bombType.bounce;
-	setRoomLocks(roomNum);
-
-	setDefaultMods(roomNum);
+	
 	timedRoomData[roomNum] = true;
 	maxTimeData[roomNum] = 1.2;
 	/////////////////////////////////////////////////////
 	//room 3 start
 	roomNum = 3; 
 	roomDialogueData[roomNum] = "This room is a tall boi";
-	
-	roomDialogueData[roomNum] = "HELLO AGAIN!";
 	bombTypeData[roomNum] = bombType.rocket;
-	setRoomLocks(roomNum);
 	
-	setDefaultMods(roomNum);
 	bombBagData[roomNum] = true;
-	maxBombsData[roomNum] = 5;
+	maxBombsData[roomNum] = 7;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 4 start
 	roomNum = 4; 
 	roomDialogueData[roomNum] = "this room is a test";
 	
-	roomDialogueData[roomNum] = "HELLO AGAIN!";
 	bombTypeData[roomNum] = bombType.fuse;
-	setRoomLocks(roomNum);
 	
-	setDefaultMods(roomNum);
-	darknessLevelData[roomNum] = .9;
+	//darkAlpha[roomNum] = .9;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 5 start
 	roomNum = 5; 
 	roomDialogueData[roomNum] = "this room is a wide boi";
-	
 	bombTypeData[roomNum] = bombType.base;
-	setRoomLocks(roomNum);
-	
-	setDefaultMods(roomNum);
 	/////////////////////////////////////////////////////
-	rooms = 5;//here we set the total number of rooms on the floor
 break;
 
 
