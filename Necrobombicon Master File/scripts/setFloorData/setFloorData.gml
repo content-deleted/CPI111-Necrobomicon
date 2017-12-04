@@ -1,13 +1,11 @@
 ///@params floor_number
 //here we reset the arrays
 bombTypeData = 0;
-// optional modifiers
 timedRoomData = 0;
 maxTimeData = 0; // controls speed of player's health loss. 1 means 1 hp per 1 second, 2 means 1 hp per 2 seconds
 bombBagData = 0;
 maxBombsData = 0;
 bombMagnetData = 0;
-// clear conditions
 roomClearedData = 0;
 roomLocksData = 0;
 roomKeysData = 0;
@@ -49,7 +47,7 @@ case 1://this is the first floor of the game
 	bombTypeData[roomNum] = bombType.rocket;
 	
 	bombBagData[roomNum] = true;
-	maxBombsData[roomNum] = 7;
+	maxBombsData[roomNum] = 5;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 4 start
@@ -57,8 +55,6 @@ case 1://this is the first floor of the game
 	roomDialogueData[roomNum] = "this room is a test";
 	
 	bombTypeData[roomNum] = bombType.fuse;
-	
-	//darkAlpha[roomNum] = .9;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 5 start

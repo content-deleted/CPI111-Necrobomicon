@@ -38,8 +38,14 @@ shakeH = false
 
 //for lighting
 dark_surface = surface_create(surface_get_width(application_surface),surface_get_height(application_surface))
-currentDarkAlpha = 0.4 //between 0 and 1 (0=no lighting, 1=pitch black
+currentDarkAlpha = 0.8 //between 0 and 1 (0=no lighting, 1=pitch black
 currentDarkColor = make_color_rgb(0,0,30)
+darkAlpha = []
+darkColor = []
+disco = []
+isDisco = false
+discoHue = 0
+alarm[2]=1
 
 //enum containing the types of special tiles
 enum floorTileId {
