@@ -1,0 +1,1 @@
+time = (frequency*room_speed)/2
