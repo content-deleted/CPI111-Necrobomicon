@@ -52,10 +52,6 @@ if(shakescreen){
 		
 		//ease-out
 		lerpAmount = sqrt(lerpAmount)
-
-		
-		//ease-in
-		//lerpAmount = 1 - cos(lerpAmount * pi * 0.5)
 		
 		//lerp
 		horizontalStrength = lerp(shakeOrigH,0,lerpAmount)

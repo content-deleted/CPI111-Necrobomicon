@@ -20,9 +20,11 @@ bottomBound = 0
 leftBound = 0
 rightBound = 0
 
+//for larger rooms
 hScroll = false
 vScroll = false
 
+//for screenshake
 shakescreen = false
 shakeDecelerating = false
 shakeDuration = 0
@@ -33,6 +35,11 @@ shakeOrigV = 0
 //i don't think these actually get used anywhere but i'm not sure
 shakeV = false
 shakeH = false
+
+//for lighting
+dark_surface = surface_create(surface_get_width(application_surface),surface_get_height(application_surface))
+currentDarkAlpha = 0.4 //between 0 and 1 (0=no lighting, 1=pitch black
+currentDarkColor = make_color_rgb(0,0,30)
 
 //enum containing the types of special tiles
 enum floorTileId {
