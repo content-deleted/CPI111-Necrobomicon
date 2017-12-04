@@ -7,6 +7,9 @@ show_debug_message("going from room " +string(previousRoom) + " to " + string(ne
 
 currentBombType = bombTypeData[newRoom];
 
+currentDarkAlpha = darknessLevelData[newRoom];
+isDarknessLevel = isDarknessLevelData[newRoom];
+
 //Update Dialogue
 currentDialogue = roomDialogueData[newRoom];
 

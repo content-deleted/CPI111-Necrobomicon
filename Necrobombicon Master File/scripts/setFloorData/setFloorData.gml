@@ -1,11 +1,15 @@
 ///@params floor_number
 //here we reset the arrays
 bombTypeData = 0;
+
 timedRoomData = 0;
 maxTimeData = 0; // controls speed of player's health loss. 1 means 1 hp per 1 second, 2 means 1 hp per 2 seconds
 bombBagData = 0;
 maxBombsData = 0;
 bombMagnetData = 0;
+darknessLevelData = .4;
+isDarknessLevelData = 0;
+
 roomClearedData = 0;
 roomLocksData = 0;
 roomKeysData = 0;
@@ -64,6 +68,7 @@ case 1://this is the first floor of the game
 	setRoomLocks(roomNum);
 	
 	setDefaultMods(roomNum);
+	darknessLevelData[roomNum] = .9;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 5 start

@@ -8,5 +8,8 @@ maxBombsData[argument0] = 0;
 
 bombMagnetData[argument0] = false;
 
+darknessLevelData[argument0] = .4;
+isDarknessLevelData[argument0] = false;
+
 //fight defaults to true
 fightData[argument0] = true;
