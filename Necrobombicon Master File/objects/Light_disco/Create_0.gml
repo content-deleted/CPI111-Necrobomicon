@@ -10,4 +10,4 @@ time = 0
 alpha = 0.6
 baseAlpha = alpha
 magnitudeAlpha = 0.4
-yscale = 0.5
+yscale = 0.8

@@ -22,6 +22,11 @@ currentBombs = maxBombs;
 
 bombMagnet = bombMagnetData[newRoom];
 
+//Lighting
+isDisco = disco[newRoom]
+currentDarkAlpha = darkAlpha[newRoom]
+currentDarkColor = darkColor[newRoom]
+
 //make sure the previous room stays cleared
 roomLocksData[previousRoom] = roomLocks;
 roomKeysData[previousRoom] = roomKeys; 
