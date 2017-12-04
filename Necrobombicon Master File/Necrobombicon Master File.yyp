@@ -1319,6 +1319,14 @@
             }
         },
         {
+            "Key": "a6b14b0c-d728-47f8-a200-ba82b6572001",
+            "Value": {
+                "id": "76e2e6ff-7e24-45b3-ac7b-359afc10c3fb",
+                "resourcePath": "sprites\\Door_Steel_spr\\Door_Steel_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a70a1ca3-5eef-47f4-94a0-c2fb0e87f850",
             "Value": {
                 "id": "a16113b5-8990-4709-8f50-245b943c8ff9",
@@ -1539,6 +1547,14 @@
             "Value": {
                 "id": "2dc200aa-c395-45de-ac91-656644928100",
                 "resourcePath": "views\\c6d69763-51a4-4752-b152-028b9d2505e0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb11ff78-aad7-4307-a9ad-20fd3a70a0e2",
+            "Value": {
+                "id": "69052d20-17a4-4335-97e4-8370d0c23bad",
+                "resourcePath": "views\\cb11ff78-aad7-4307-a9ad-20fd3a70a0e2.yy",
                 "resourceType": "GMFolder"
             }
         },
