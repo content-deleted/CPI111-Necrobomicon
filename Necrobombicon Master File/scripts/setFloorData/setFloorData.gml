@@ -30,8 +30,6 @@ case 1://this is the first floor of the game
 	roomDialogueData[roomNum] = "HELLO WORLD!";
 	bombTypeData[roomNum] = bombType.remote;
 	
-	setDefaultMods(roomNum);
-	
 	darkAlpha[roomNum] = 0.7
 	disco[roomNum] = true
 	/////////////////////////////////////////////////////
@@ -40,8 +38,6 @@ case 1://this is the first floor of the game
 	roomDialogueData[roomNum] = "HELLO AGAIN!";
 	bombTypeData[roomNum] = bombType.bounce;
 	
-	setDefaultMods(roomNum);
-	
 	timedRoomData[roomNum] = true;
 	maxTimeData[roomNum] = 1.2;
 	/////////////////////////////////////////////////////
@@ -49,8 +45,6 @@ case 1://this is the first floor of the game
 	roomNum = 3; 
 	roomDialogueData[roomNum] = "This room is a tall boi";
 	bombTypeData[roomNum] = bombType.rocket;
-	
-	setDefaultMods(roomNum);
 	
 	bombBagData[roomNum] = true;
 	maxBombsData[roomNum] = 5;
@@ -61,8 +55,6 @@ case 1://this is the first floor of the game
 	roomDialogueData[roomNum] = "this room is a test";
 	bombTypeData[roomNum] = bombType.fuse;
 	
-	setDefaultMods(roomNum);
-	
 	darkAlpha[roomNum] = .97;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
@@ -70,8 +62,6 @@ case 1://this is the first floor of the game
 	roomNum = 5; 
 	roomDialogueData[roomNum] = "this room is a wide boi";
 	bombTypeData[roomNum] = bombType.base;
-	
-	setDefaultMods(roomNum);
 	/////////////////////////////////////////////////////
 break;
 

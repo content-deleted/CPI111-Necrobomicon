@@ -3,4 +3,4 @@
 exploding = false
 damage = 100
 image_speed = 0;
-alarm[1] = irandom_range(2,5) * room_speed;
+alarm[1] = irandom_range(4,10) * room_speed;
