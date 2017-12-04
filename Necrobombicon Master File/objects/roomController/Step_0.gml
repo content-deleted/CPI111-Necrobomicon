@@ -5,7 +5,7 @@ if(currentRoom != playerRoom)
 	swapCurrentRoom(currentRoom,playerRoom);
 	
 updateRoomMods();
-
+currentLocation = playerRoom;
 if(roomLocks <= roomKeys)
 	roomCleared=true;
 else
@@ -36,3 +36,17 @@ if (Player_obj.healthCurrent <= 0 && playing)
 }
 
 updateCamera();
+//shaders
+shaderTime += 0.01
+if ( shaderTime >= 65000 ) shaderTime = 0
+
+//Shader Settings
+//Switches shader on/off based on current room
+//Set rooms where you would late the shader to be present
+//
+if(currentLocation == 4 || currentLocation == 5){
+application_surface_draw_enable(false);
+}
+else{
+application_surface_draw_enable(true);
+}

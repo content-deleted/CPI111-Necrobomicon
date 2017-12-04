@@ -59,6 +59,7 @@ enum floorTileId {
 global.floorNum = room;
 currentRoom = getActorRoom(Player_obj);
 
+currentLocation = 0;
 //the following code is a template for setting a room;
 //player properties for the current room
 currentBombType = bombType.base;
@@ -97,3 +98,7 @@ else
 switch (global.floorNum) {
 	case 1: audio_play_sound(mus_floor1,0,true); break
 }
+
+//Ye Old Shader
+shaderTime = 0;
+s_time = shader_get_uniform( testShader, "time");
