@@ -1207,6 +1207,14 @@
             }
         },
         {
+            "Key": "a2b031bc-0368-42dc-b80c-d4030d0adda5",
+            "Value": {
+                "id": "72f66396-0003-4a98-9c05-a94a84592cd6",
+                "resourcePath": "sprites\\lightCircle_red\\lightCircle_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a54c0d24-aaf1-452c-be5e-6cef52293b87",
             "Value": {
                 "id": "3599a7c8-9826-4882-90f8-57c4e8783063",
@@ -1259,6 +1267,14 @@
             "Value": {
                 "id": "fa8580cf-a5c7-4fe8-8fa3-00d0bb25a267",
                 "resourcePath": "objects\\sigil_freeze_obj\\sigil_freeze_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b18307e0-0180-4958-9f6c-9803bde301a8",
+            "Value": {
+                "id": "3eabd333-eb4b-4fd9-ac79-943208de6825",
+                "resourcePath": "objects\\Light_disco\\Light_disco.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1843,6 +1859,14 @@
             "Value": {
                 "id": "131ae84c-22f9-4bb2-94d7-704850839d26",
                 "resourcePath": "views\\f824c63a-7eb9-447d-8dc0-48ba51358a03.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f99b5df9-3d14-4b71-92de-d426c43e7937",
+            "Value": {
+                "id": "aa5208c3-5d96-40d2-be48-552b591a9675",
+                "resourcePath": "views\\f99b5df9-3d14-4b71-92de-d426c43e7937.yy",
                 "resourceType": "GMFolder"
             }
         },

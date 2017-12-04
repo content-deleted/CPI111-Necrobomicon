@@ -18,7 +18,7 @@ if (!actor.isInvincible)
 	// Subtract health
 	actor.healthCurrent-= damageDealt;
 	actor.isInvincible = true;
-	actor.alarm[1] = 1*room_speed; //set the invincibility timer
+	actor.alarm[1] = 0.5*room_speed; //set the invincibility timer
 	actor.image_index = 0;
 	// Add knockback vector 
 	if(knockback)
