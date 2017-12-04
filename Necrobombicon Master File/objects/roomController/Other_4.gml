@@ -84,6 +84,15 @@ setFloorData();
 
 swapCurrentRoom(0,1);
 
+if(enemysData[currentRoom] > 0)
+{
+	enemiesCleared = false;	
+}
+else
+{
+	enemiesCleared = true;
+}
+
 //cue the music, baby
 switch (global.floorNum) {
 	case 1: audio_play_sound(mus_floor1,0,true); break

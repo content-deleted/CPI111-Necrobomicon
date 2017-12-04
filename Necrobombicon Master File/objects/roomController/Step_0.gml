@@ -11,7 +11,14 @@ if(roomLocks <= roomKeys)
 else
 	roomCleared = false;
 
-if(enemys = 0 && enemysData[currentRoom] > 0){roomKeys++}
+if(!enemiesCleared)
+{
+	if(enemys <= 0)
+	{
+		enemiesCleared = true;
+		roomKeys++;
+	}
+}
 
 if(startDOT)
 {

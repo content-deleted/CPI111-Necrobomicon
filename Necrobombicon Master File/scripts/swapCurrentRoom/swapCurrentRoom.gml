@@ -30,6 +30,7 @@ currentDarkColor = darkColor[newRoom]
 //make sure the previous room stays cleared
 roomLocksData[previousRoom] = roomLocks;
 roomKeysData[previousRoom] = roomKeys; 
+enemiesCleared = false;
 
 //room cleared data
 roomLocks = roomLocksData[newRoom];
