@@ -56,7 +56,7 @@ case 1://this is the first floor of the game
 	
 	bombTypeData[roomNum] = bombType.fuse;
 	
-	darkAlpha[roomNum] = .9;
+	darkAlpha[roomNum] = .97;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 5 start
