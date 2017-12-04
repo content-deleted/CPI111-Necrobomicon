@@ -21,7 +21,7 @@ case 0: //this is our default case, its just menus and stuff
 break; 
 
 case 1://this is the first floor of the game
-	rooms = 5;//here we set the total number of rooms on the floor
+	rooms = 8 //here we set the total number of rooms on the floor
 	var i;
 	for(i=1;i<rooms+1;i++) {setDefaultData(i)}
 	/////////////////////////////////////////////////////
