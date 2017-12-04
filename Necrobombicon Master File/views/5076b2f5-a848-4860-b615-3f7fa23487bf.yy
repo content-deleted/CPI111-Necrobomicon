@@ -6,7 +6,8 @@
     "children": [
         "718e7420-a604-4257-80e9-27be657308f9",
         "b7dd3444-7114-47c2-80d8-556a191b2c73",
-        "8b3e59c9-46bf-4d87-9e7e-c09ca43bb8ab"
+        "8b3e59c9-46bf-4d87-9e7e-c09ca43bb8ab",
+        "7a3cdf8f-b410-47b6-b419-9c7252ea1a3c"
     ],
     "filterType": "GMSound",
     "folderName": "sfx",

@@ -25,6 +25,7 @@ if (Player_obj.healthCurrent <= 0 && playing)
 	playing = false;
 	Player_obj.positionUpdate = false;
 	alarm[0] = 3 * room_speed;
+	audio_play_sound(choose(sfx_gjDeath1,sfx_gjDeath2,sfx_gjDeath3),2,false)
 }
 
 updateCamera();

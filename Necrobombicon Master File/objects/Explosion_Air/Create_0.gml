@@ -2,6 +2,8 @@
 // You can write your code in this editor
 event_inherited();
 
+playSoundAtSelf(sfx_expWind)
+
 var radius = sprite_get_width(sprite_index)/2;
 
 with(Actor_Obj)

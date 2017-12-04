@@ -2,6 +2,10 @@
 // You can write your code in this editor
 event_inherited();
 
+playSoundAtSelf(sfx_expBasic)
+playSoundAtSelf(sfx_expFreeze)
+audio_sound_pitch(sfx_expFreeze,random_range(2,3))
+
 var radius = sprite_get_width(sprite_index);
 var freezeSeconds = 4;
 

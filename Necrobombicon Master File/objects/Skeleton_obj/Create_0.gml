@@ -10,10 +10,10 @@ enum FSM {
 state = FSM.patrol
 timer = 0
 
-timer = 0;
+/*timer = 0;
 randQuat = irandom_range(1,4);
 intendedDir = 0;
-intendedSpeed = 3;
+intendedSpeed = 3;*/
 
 healthMax = 1;
 healthCurrent = healthMax;

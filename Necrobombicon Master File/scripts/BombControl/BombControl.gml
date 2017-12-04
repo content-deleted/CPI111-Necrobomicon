@@ -3,7 +3,7 @@ var collisionMap = layer_tilemap_get_id("CollisionTiles");
 var collisionMap2 = layer_tilemap_get_id("DestructableTiles");
 var playAnim = true;
 
-switch(roomController.currentBombType)
+switch(argument0)
 {
 	case bombType.fuse:
 		bombToSpawn = Fuse_Bomb;
@@ -27,13 +27,13 @@ switch(roomController.currentBombType)
 			intendedSpeed = 6;
 		}
 		break;
-	case bombType.grenade:
+/*	case bombType.grenade:
 		bombToSpawn = Grenade_Bomb;
 		xPos = lengthdir_x(60,intendedDir)+x;
 		yPos = lengthdir_y(70,intendedDir)+y;
 		bombHeight = sprite_get_height(bombToSpawn);
 		bombWidth = sprite_get_width(bombToSpawn);
-		break;
+		break;*/
 	case bombType.remote:
 		bombToSpawn = Remote_Bomb;
 		xPos = lengthdir_x(60,intendedDir)+x;
