@@ -21,7 +21,7 @@ if(global.actor_allowUpdate)
 	// animation end event
 	if (image_index >= (image_number))
 	{
-		isInvincible = false;
+		//isInvincible = false;
 		attacking = false;
 	}
 	
