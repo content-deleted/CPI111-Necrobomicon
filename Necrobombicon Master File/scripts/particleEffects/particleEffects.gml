@@ -1,10 +1,19 @@
+//creates particle effect using given script
+//Format: particleEffects(sprite, color);
+//argument0 = sprite;
+//argument1 = color;
+
 var objectID = argument0;
 var color = argument1;
+
+//gets script dimensions
 var width = sprite_get_width(objectID);
 var height = sprite_get_height(objectID);
 
+//sets size of the produced particles. 
 var particle_Size = irandom_range(15,25);
 
+ 
 for (i=0;i<width;i+=particle_Size) 
 { 
 	for (j=0;j<height;j+=particle_Size) 
