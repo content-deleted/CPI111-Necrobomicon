@@ -55,6 +55,8 @@ case 1://this is the first floor of the game
 	roomDialogueData[roomNum] = "this room is a test";
 	
 	bombTypeData[roomNum] = bombType.fuse;
+	
+	darkAlpha[roomNum] = .9;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 5 start
