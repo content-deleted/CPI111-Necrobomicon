@@ -3,7 +3,7 @@
 
 //AI_skeleton()
 
-if (!canMove) {exit}
+if (!canMove || global.gamePaused) {exit}
 
 timer--
 randomize()

@@ -1,6 +1,6 @@
 /// @description Forgive me, for I have sinned
 currentX = 5;
-currentY = camera_get_view_height(view_camera[0]) - sprite_get_height(hp_base)/2 +10;
+currentY = window_get_height() - sprite_get_height(hp_base)/2 - 8;
 
 draw_set_font(font_explorer);
 if (global.gamePaused) // if game is paused
@@ -8,12 +8,14 @@ if (global.gamePaused) // if game is paused
 	//book
 	draw_sprite(MenuBG,0,window_get_width()-sprite_get_width(MenuBG),window_get_height()-sprite_get_height(MenuBG));
 	//garbage text placeholder trash
-	draw_text(400,245,"Game is paused.");
-	draw_text(440,400,"Unpause");
-	draw_text(440,460,"Fullscreen");
-	draw_text(440,520,"Quit");
+	textX = window_get_width() - sprite_get_width(MenuBG) + 200;
+	textY = window_get_height()-sprite_get_height(MenuBG) + 120;
+	draw_text(textX - 40,textY,"Game is paused.");
+	draw_text(textX,textY + 100,"Unpause");
+	draw_text(textX,textY + 160,"Fullscreen");
+	draw_text(textX,textY + 220,"Quit");
 	//cursor, hard-coded for extra crying
-	draw_sprite(MenuCursor,0,540,340+60*menuPos);
+	draw_sprite(MenuCursor,0,textX + 145,textY + 40 + 60*menuPos);
 }
 
 // health bar

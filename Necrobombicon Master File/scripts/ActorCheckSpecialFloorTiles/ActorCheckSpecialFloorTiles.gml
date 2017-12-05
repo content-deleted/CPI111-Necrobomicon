@@ -14,6 +14,10 @@ if(tile!= 0){
 }
 
 if(falling){
+		if (image_xscale == 1){
+			if(object_index = Player_obj || object_index = goblin_obj)
+				audio_play_sound(choose(sfx_gjFallDeath1,sfx_gjFallDeath2,sfx_gjFallDeath3),2,false);
+		}
 		if(image_xscale > 0){
 				intendedDir = 270;
 				canMove = false;
