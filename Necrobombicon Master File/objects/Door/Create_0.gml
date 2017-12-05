@@ -11,3 +11,14 @@ enum doorDir {
 	west
 };
 doorDirection = doorDir.north;
+
+var tilemap = layer_tilemap_get_id("roomTiles");
+var myRoom = tilemap_get_at_pixel(tilemap,x,y);
+if (myRoom != tilemap_get_at_pixel(tilemap,x,y-100))
+	doorDirection = doorDir.north;
+else if (myRoom != tilemap_get_at_pixel(tilemap,x,y+100))
+	doorDirection = doorDir.south;
+else if (myRoom != tilemap_get_at_pixel(tilemap,x+100,y))
+	doorDirection = doorDir.east;
+else
+	doorDirection = doorDir.west;
