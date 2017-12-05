@@ -17,5 +17,3 @@ if(eventsCorrect != eventCheck){
 	}
 	eventsCorrect = eventCheck;
 }
-show_debug_message("keys:" + string(roomController.roomKeys));
-show_debug_message("locsk:" + string(roomController.roomLocks));

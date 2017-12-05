@@ -12,7 +12,7 @@ if (healthCurrent <= 0)
 		}
 	}
 	roomController.enemys--;
-	particleEffects(skeleton_hurt, color);
+	particleEffects(skeleton_hurt, color,x,y,0,0,sprite_width,sprite_height)
 	playSoundAtSelf(sfx_skeletonHit)
 	playSoundAtSelf(sfx_bonetoss)
 }

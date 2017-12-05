@@ -16,5 +16,4 @@ if(checkPressure){
 		else
 			roomController.eventFlags[eventNumber] = false;	
 	}
-	show_debug_message(roomController.eventFlags[eventNumber]);
 }
