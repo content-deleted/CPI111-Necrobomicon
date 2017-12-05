@@ -66,15 +66,20 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 6 start
 	roomNum = 6; 
-	roomDialogueData[roomNum] = "Test test test test test test test test test test test test test test test test test test.";
+	roomDialogueData[roomNum] = "THIS IS THE BEGINNING OF THE TECH DEMO!%%%|[THE 'DEMO' IS SHORT FOR DEMOLITION.]%%%|I'M THE NECROBOMBICON. I JUST TURNED YOU INTO A GOBLIN.%%|I'M GONNA CALL YOU 'GOBLIN JONES.' YOU FINE WITH THAT, GOBLIN JONES?%%|PRESS THE [DOWN] KEY TO TELL ME YOU'RE FINE WITH IT."
 	bombTypeData[roomNum] = bombType.remote;
 	darkAlpha[roomNum] = .6
 	darkColor[roomNum] = make_color_rgb(40,35,30)
 	dialogueSound[roomNum] = sfx_dialogue1
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
+	roomNum = 7
+	roomDialogueData[roomNum] = "GOOD JOB PRESSING THE DOWN KEY, JONES. I KNEW I COULD COUNT ON YOU.%%%|I FEEL LIKE WE'RE ALREADY BECOMING FRIENDS.%%|PERHAPS IT'S TIME I INVITE YOU INTO MY HOME...%%%|"
+	bombTypeData[roomNum] = bombType.base
+	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
 	roomNum = 8
-	roomDialogueData[roomNum] = "WELCOME, JONES, TO MY PRIVATE LOUNGE% (AND ETERNAL PRISON).%%|I CHOSE THE DECOR MYSELF! IT'S QUITE LOVELY, AS YOU CAN SEE...%|BUT IT'S MISSING A LITTLE SOMETHING.%%% IT'S MISSING...EXPLOSIONS.%%%%%|"
+	roomDialogueData[roomNum] = "WELCOME, JONES, TO MY PRIVATE LOUNGE% (AND ETERNAL PRISON).%%|I CHOSE THE DECOR MYSELF! IT'S QUITE LOVELY, AS YOU CAN SEE...%|BUT IT'S MISSING A LITTLE SOMETHING.%%% IT'S MISSING...EXPLOSIONS.%%%%%|PRESS [SPACE] TO THROW A BOMB. YOU KNOW YOU WANT TO.%%|"
 	bombTypeData[roomNum] = bombType.base;
 	darkColor[roomNum] = make_color_rgb(40,30,20)
 	/////////////////////////////////////////////////////
@@ -95,7 +100,7 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 12; 
-	roomDialogueData[roomNum] = "HMPH, THERE'S NO WAY TO CROSS THAT GAP! I GUESS IT'S 'GAME OVER'...";
+	roomDialogueData[roomNum] = "HMPH, THERE'S NO WAY TO CROSS THAT GAP! I GUESS IT'S 'GAME OVER'...%%|";
 	bombTypeData[roomNum] = bombType.remote;
 	darkAlpha[roomNum] = .6
 	darkColor[roomNum] = make_color_rgb(30,0,50)
