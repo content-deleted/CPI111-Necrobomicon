@@ -1,14 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!inWall & !falling)
+if (!inWall)
 {
+	var myExplosion;
 	switch (Player_obj.currentSigType)
 	{
 		case sigType.air: 
-			instance_create_layer(x,y, "Explosions", Explosion_Air); break;
+			myExplosion = instance_create_layer(x,y, "Explosions", Explosion_Air); break;
 		case sigType.freeze:
-			instance_create_layer(x,y, "Explosions", Explosion_Freeze); break;
+			myExplosion = instance_create_layer(x,y, "Explosions", Explosion_Freeze); break;
 		default: // includes sigType.clear
-			instance_create_layer(x,y, "Explosions", Explosion_Basic);
+			myExplosion = instance_create_layer(x,y, "Explosions", Explosion_Basic);
+	}
+	if(falling)
+	{
+		myExplosion.image_xscale = .5;
+		myExplosion.image_yscale = .5;
+		myExplosion.image_alpha = 0.5;
 	}
 }

@@ -3,6 +3,7 @@ var collisionMap = layer_tilemap_get_id("CollisionTiles");
 var collisionMap2 = layer_tilemap_get_id("DestructableTiles");
 var playAnim = true;
 
+if(canMove){
 switch(argument0)
 {
 	case bombType.fuse:
@@ -76,4 +77,5 @@ if(playAnim)
 {
 	attacking = true;
 	image_index = 0;
+}
 }
