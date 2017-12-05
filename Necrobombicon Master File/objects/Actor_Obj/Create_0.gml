@@ -30,6 +30,7 @@ isCollidingY = false;
 pushable = false;
 destroyOnCollide = false;
 positionUpdate = true;
+canFall = true;
 
 //attribute instance variables
 healthMax = 0;
