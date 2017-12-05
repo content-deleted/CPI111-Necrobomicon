@@ -1,6 +1,6 @@
 //Shaders
 //Currently set to activate in rooms 4 and 5
-if(currentLocation == 4 || currentLocation == 5)
+if(enableShader)
 {
 
 	//SHADER PREPARATION//
