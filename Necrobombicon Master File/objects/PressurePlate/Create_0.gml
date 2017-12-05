@@ -4,3 +4,6 @@ is_solid = false;
 //the default is zero but this should be changed in instances
 eventNumber = 0;
 activated = false;
+seperateRoomControl = false;
+otherRoom = 0;
+checkPressure = true;
