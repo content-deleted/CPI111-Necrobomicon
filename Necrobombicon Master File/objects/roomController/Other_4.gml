@@ -83,7 +83,7 @@ bombMagnet= false;
 //now we set the floor data
 setFloorData();
 
-swapCurrentRoom(0,1);
+swapCurrentRoom(0,currentRoom);
 
 if(enemysData[currentRoom] > 0)
 {

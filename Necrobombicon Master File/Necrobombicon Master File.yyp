@@ -151,14 +151,6 @@
             }
         },
         {
-            "Key": "0c3441d5-47b4-4653-b19a-83b9107da3ce",
-            "Value": {
-                "id": "c0e1cad2-a52d-4500-a675-7c05d36220a4",
-                "resourcePath": "sprites\\roomTiles\\roomTiles.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0e9154d4-6fde-4899-b198-fbf63e63cd71",
             "Value": {
                 "id": "28769b22-2ce8-45fc-9322-8ec7a8797cb3",
@@ -308,14 +300,6 @@
                 "id": "9ae31c4f-a02b-4efb-a294-7abc8dc4f6a0",
                 "resourcePath": "scripts\\particleEffects\\particleEffects.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "253b70a5-7da7-4d4c-ba76-442f465d1f21",
-            "Value": {
-                "id": "da27c46c-30aa-43e7-868e-5689a21cbd52",
-                "resourcePath": "tilesets\\roomTileSet\\roomTileSet.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
@@ -1367,6 +1351,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "e6e72c11-0e1b-452d-9818-0c38317aa5d4",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "ac9ec9d6-1522-40f7-9890-a39d88043ef1",
             "Value": {
                 "id": "dcd1aabf-f4a8-4e03-93ea-cd2dedc42680",
@@ -1564,6 +1556,14 @@
                 "id": "2dc200aa-c395-45de-ac91-656644928100",
                 "resourcePath": "views\\c6d69763-51a4-4752-b152-028b9d2505e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c8a14082-7419-4397-83de-826d1c63d11c",
+            "Value": {
+                "id": "22ef7c6c-6f11-4c2d-9e52-bddbbb839b2b",
+                "resourcePath": "tilesets\\roomTileSet\\roomTileSet.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -2015,6 +2015,14 @@
             }
         },
         {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "4ec0315d-2fd2-4b6d-8ddc-42973249e783",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
             "Key": "f53647e5-48aa-48be-80a3-4a211c29a46d",
             "Value": {
                 "id": "cca428de-329d-45c6-bbb7-225563b82aba",
@@ -2052,6 +2060,14 @@
                 "id": "131ae84c-22f9-4bb2-94d7-704850839d26",
                 "resourcePath": "views\\f824c63a-7eb9-447d-8dc0-48ba51358a03.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f88f57e6-91ac-4e4e-8955-e96d724ea106",
+            "Value": {
+                "id": "bddd0230-f193-401d-8460-b7180d86d8a4",
+                "resourcePath": "sprites\\roomTilesSprite\\roomTilesSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

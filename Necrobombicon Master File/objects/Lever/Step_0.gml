@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(getActorRoom(Player_obj) == getActorRoom(self))
+if(roomController.currentRoom == getActorRoom(self))
 {
 if(isLightSwitch)
 {
