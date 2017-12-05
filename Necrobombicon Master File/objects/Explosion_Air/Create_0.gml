@@ -19,4 +19,4 @@ with(Actor_Obj)
 	}	
 }	
 
-image_blend = c_teal
+image_blend = c_gray

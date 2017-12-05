@@ -73,11 +73,36 @@ case 1://this is the first floor of the game
 	dialogueSound[roomNum] = sfx_dialogue1
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
+	roomNum = 9
+	roomDialogueData[roomNum] = "shadow room";
+	bombTypeData[roomNum] = bombType.base;
+	
+	darkAlpha[roomNum] = .7
+	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
+	roomNum = 11; 
+	roomDialogueData[roomNum] = "HELLO WORLD!";
+	bombTypeData[roomNum] = bombType.base;
+	
+	darkAlpha[roomNum] = 0.7
+	disco[roomNum] = true
+	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
 	roomNum = 12; 
 	roomDialogueData[roomNum] = "";
 	bombTypeData[roomNum] = bombType.remote;
 	darkAlpha[roomNum] = .6
 	darkColor[roomNum] = make_color_rgb(30,0,50)
+	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
+	roomNum = 13; 
+	roomDialogueData[roomNum] = "chain chomp room";
+	bombTypeData[roomNum] = bombType.bounce;
+	darkAlpha[roomNum] = .4
+	darkColor[roomNum] = make_color_rgb(30,10,0)
+	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
+	
 break;
 
 

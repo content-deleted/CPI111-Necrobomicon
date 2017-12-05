@@ -23,8 +23,8 @@ var sampleH = argument7;
 //var height = sprite_get_height(spriteID)
 
 //sets size of the produced particles
-var particleWidth = irandom_range(sampleW/8,sampleW/4)
-var particleHeight = irandom_range(sampleH/8, sampleH/4)
+var particleWidth = irandom_range(sampleW/8,sampleW/5)
+var particleHeight = irandom_range(sampleH/8, sampleH/5)
 
 //draw_sprite_part_ext(spr,-1,xx,yy,ww,hh,x,y,1,1,colour,1);
  
