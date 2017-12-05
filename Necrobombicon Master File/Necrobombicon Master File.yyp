@@ -1226,7 +1226,7 @@
             "Key": "97570ae2-9e3e-4163-82f7-867f486fa661",
             "Value": {
                 "id": "093dc7da-07ef-4749-8e2e-8126fdec8ff8",
-                "resourcePath": "sprites\\fancySpriteSheet\\fancySpriteSheet.yy",
+                "resourcePath": "sprites\\destructibleTileSetSprite\\destructibleTileSetSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1314,7 +1314,7 @@
             "Key": "a54c0d24-aaf1-452c-be5e-6cef52293b87",
             "Value": {
                 "id": "3599a7c8-9826-4882-90f8-57c4e8783063",
-                "resourcePath": "tilesets\\fancyDestructable\\fancyDestructable.yy",
+                "resourcePath": "tilesets\\destructibleTileSet\\destructibleTileSet.yy",
                 "resourceType": "GMTileSet"
             }
         },
