@@ -68,8 +68,9 @@ case 1://this is the first floor of the game
 	roomNum = 6; 
 	roomDialogueData[roomNum] = "Test test test test test test test test test test test test test test test test test test.";
 	bombTypeData[roomNum] = bombType.base;
-	darkAlpha[roomNum] = .7
-	darkColor[roomNum] = make_color_rgb(30,35,40)
+	darkAlpha[roomNum] = .6
+	darkColor[roomNum] = make_color_rgb(40,35,30)
+	dialogueSound[roomNum] = sfx_dialogue1
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 break;

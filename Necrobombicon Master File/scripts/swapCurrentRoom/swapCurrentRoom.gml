@@ -99,3 +99,5 @@ show_debug_message("PlayerX:"+string(Player_obj.x) + "entY:"+string(Player_obj.y
 
 //let the UI controller we've entered a new room
 with (ui_controller_obj) {event_user(0)}
+//play the dialogue sound for the room
+if (dialogueSound[newRoom] != 0) {audio_play_sound(dialogueSound[newRoom],2,false)}

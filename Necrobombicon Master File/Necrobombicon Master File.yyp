@@ -943,6 +943,14 @@
             }
         },
         {
+            "Key": "76c1136d-26cf-45ce-b11c-61508ea63f82",
+            "Value": {
+                "id": "a0f1b2a5-1591-4a9f-93f6-a77f8ca42fb9",
+                "resourcePath": "sounds\\sfx_dialogue2\\sfx_dialogue2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7979d0b7-8179-43b4-bfd9-3d71cc33d009",
             "Value": {
                 "id": "6a64d087-2c89-46cf-8d2d-90d49a1c1f5e",
@@ -1367,14 +1375,6 @@
             }
         },
         {
-            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
-            "Value": {
-                "id": "527e8cdc-607e-4b47-9968-e6def777ea09",
-                "resourcePath": "options\\linux\\options_linux.yy",
-                "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
             "Key": "ac9ec9d6-1522-40f7-9890-a39d88043ef1",
             "Value": {
                 "id": "dcd1aabf-f4a8-4e03-93ea-cd2dedc42680",
@@ -1420,6 +1420,22 @@
                 "id": "cdaf92ba-465b-4a72-b4d3-d908f6a5b836",
                 "resourcePath": "scripts\\ActorCollision\\ActorCollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b2700636-acc2-4828-83f1-69d265212418",
+            "Value": {
+                "id": "d609a1f1-e716-4fb9-88e8-805cf15547bb",
+                "resourcePath": "sounds\\sfx_dialogue3\\sfx_dialogue3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b4993015-88cf-43d0-85d3-60c8bfe3cae2",
+            "Value": {
+                "id": "5a3a64fa-3c52-4907-b794-cc4009e2d7ef",
+                "resourcePath": "views\\b4993015-88cf-43d0-85d3-60c8bfe3cae2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1684,6 +1700,14 @@
                 "id": "ea4e1be2-6630-4168-8a12-29ccec7ac11a",
                 "resourcePath": "sprites\\speech_bubble_spr\\speech_bubble_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cee4a90d-7133-4a5a-a35b-a1b207e140db",
+            "Value": {
+                "id": "699fdda7-cbf6-4ae3-87af-97658e36857d",
+                "resourcePath": "sounds\\sfx_dialogue1\\sfx_dialogue1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2028,14 +2052,6 @@
                 "id": "254e20b9-1c6e-4afd-9fc9-ea54e9efba94",
                 "resourcePath": "views\\f3f5facd-652b-4314-8a22-42183607350b.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
-            "Value": {
-                "id": "0d523d43-0f17-4f80-b632-ffe8f5edb126",
-                "resourcePath": "options\\mac\\options_mac.yy",
-                "resourceType": "GMMacOptions"
             }
         },
         {
