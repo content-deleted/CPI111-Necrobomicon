@@ -101,3 +101,9 @@ switch (global.floorNum) {
 //Ye Old Shader
 shaderTime = 0;
 s_time = shader_get_uniform( testShader, "time");
+
+//we set the lerp bounds so that it doesnt move from origin on load
+topBoundOld = topBound;
+bottomBoundOld = bottomBound;
+leftBoundOld = leftBound;
+rightBoundOld = rightBound;
