@@ -1,28 +1,28 @@
 {
-    "id": "d4efb706-0b3a-4f30-ad88-a703e101112f",
+    "id": "6f710a5b-be23-4ba1-ac46-7f4426111797",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "LockedDoor",
     "eventList": [
         {
-            "id": "1412ad05-01d1-4da6-a39e-12d4315b610f",
+            "id": "e4056684-17ce-4788-85d3-1a34a2afc0a8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d4efb706-0b3a-4f30-ad88-a703e101112f"
+            "m_owner": "6f710a5b-be23-4ba1-ac46-7f4426111797"
         },
         {
-            "id": "1fe37eaf-2fa0-401c-bfb1-b2bd9562d1b3",
+            "id": "deaee425-5a26-4c55-a562-74e0fdcff3b3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "d4efb706-0b3a-4f30-ad88-a703e101112f"
+            "m_owner": "6f710a5b-be23-4ba1-ac46-7f4426111797"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

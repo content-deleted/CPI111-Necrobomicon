@@ -295,14 +295,6 @@
             }
         },
         {
-            "Key": "1e16db90-1ad1-4a43-86bd-54e711dd1e7b",
-            "Value": {
-                "id": "e10de896-b1b9-4272-8bde-a1988363721f",
-                "resourcePath": "sprites\\healthbar_animated\\healthbar_animated.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2042cc29-f07e-491c-931b-2e741e42866a",
             "Value": {
                 "id": "97e08213-4a30-4a60-9f37-8ea96eff96b1",
@@ -903,6 +895,14 @@
             }
         },
         {
+            "Key": "6f710a5b-be23-4ba1-ac46-7f4426111797",
+            "Value": {
+                "id": "89cc6622-11f5-46d1-827c-289e62e97568",
+                "resourcePath": "objects\\LockedDoor\\LockedDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6faeddaa-b7ac-4e9d-89f5-448d774eb49d",
             "Value": {
                 "id": "badc9d57-a91b-484a-bca5-cbef451a94b8",
@@ -1023,14 +1023,6 @@
             }
         },
         {
-            "Key": "773288c9-b043-4905-8e71-4f59f0bea627",
-            "Value": {
-                "id": "8f5ee387-1a48-4a65-8b3a-519c4e22b12f",
-                "resourcePath": "shaders\\outline\\outline.yy",
-                "resourceType": "GMShader"
-            }
-        },
-        {
             "Key": "7979d0b7-8179-43b4-bfd9-3d71cc33d009",
             "Value": {
                 "id": "6a64d087-2c89-46cf-8d2d-90d49a1c1f5e",
@@ -1116,14 +1108,6 @@
                 "id": "e2b10d04-248d-4cdb-b271-7bd29b9fed21",
                 "resourcePath": "views\\7efbb3e8-71de-4078-a786-22ff419b1176.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7faee049-3242-4047-aaef-a74c4d070be9",
-            "Value": {
-                "id": "4df462bc-c692-47e6-8bab-d7c968befb3b",
-                "resourcePath": "shaders\\outline\\outline.yy",
-                "resourceType": "GMShader"
             }
         },
         {
@@ -1481,7 +1465,7 @@
         {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
-                "id": "96fab718-a193-433b-87ad-8f52aef6e062",
+                "id": "96769bb9-719f-4b28-9dbf-685c527af441",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
             }
@@ -1919,14 +1903,6 @@
             }
         },
         {
-            "Key": "d4efb706-0b3a-4f30-ad88-a703e101112f",
-            "Value": {
-                "id": "cac00a49-e979-431f-bab6-4092af8eedde",
-                "resourcePath": "objects\\LockedDoor\\LockedDoor.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d548e9f6-5cdd-4842-aabe-26e30563eebd",
             "Value": {
                 "id": "446bdd16-44b6-472d-9c2d-a90b7724f0f2",
@@ -2201,7 +2177,7 @@
         {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
-                "id": "a14d60fe-47e8-4212-a083-954d8ebc50ea",
+                "id": "bd24e59b-15b4-41a7-8cd8-43f1e7c06fdc",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
