@@ -7,5 +7,5 @@ x = originx + radius*cos(angle)
 y = originy + radius*sin(angle)
 
 alpha = baseAlpha+magnitudeAlpha*sin(2*pi*(time/((frequency*2)*room_speed)))
-
+image_alpha = alpha/4
 //show_debug_message(string(angle))
