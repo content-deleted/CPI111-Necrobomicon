@@ -8,7 +8,7 @@ instance_create_depth(x,y,depth-1,Light_Player)
 
 // set variables to not 0 (testing purposes, maybe delete later)
 // find a better way to instantiate these on game start?
-healthMax = 25;
+healthMax = 15;
 healthCurrent = healthMax;
 
 ///      player specific          //
