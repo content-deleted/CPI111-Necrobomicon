@@ -63,6 +63,12 @@ case 1://this is the first floor of the game
 	roomDialogueData[roomNum] = "this room is a wide boi";
 	bombTypeData[roomNum] = bombType.base;
 	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
+	//room 6 start
+	roomNum = 6; 
+	roomDialogueData[roomNum] = "Test test test test test test test test test test.";
+	bombTypeData[roomNum] = bombType.base;
+	/////////////////////////////////////////////////////
 break;
 
 
