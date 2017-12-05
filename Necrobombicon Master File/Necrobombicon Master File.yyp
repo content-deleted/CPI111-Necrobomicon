@@ -690,7 +690,7 @@
             "Key": "513f8a8a-a398-4dbd-ae3d-d79af9f84d1e",
             "Value": {
                 "id": "62a6e613-a879-4c19-b287-acf771d62a45",
-                "resourcePath": "objects\\Play_Obj\\Play_Obj.yy",
+                "resourcePath": "objects\\PlayButton_Obj\\PlayButton_Obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1235,6 +1235,14 @@
             "Value": {
                 "id": "e92c1afd-a19f-4ef7-9b6c-7eeea9751d73",
                 "resourcePath": "objects\\Fuse_Bomb\\Fuse_Bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "86ee8045-105f-4dd5-86e7-705c32d72da4",
+            "Value": {
+                "id": "cfb36e9a-be2a-46bc-a3c4-dd01de2eeffe",
+                "resourcePath": "objects\\TitleButtonSuper\\TitleButtonSuper.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2236,6 +2244,14 @@
                 "id": "4d76f94a-5a5a-4d14-879f-82cb9f218573",
                 "resourcePath": "sprites\\lightCircle_spr\\lightCircle_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f38fd688-ab0d-4c3a-bd5e-acc66a292c23",
+            "Value": {
+                "id": "5d866681-ca49-45bf-930f-d13f9616dc7e",
+                "resourcePath": "objects\\Light_Pinned\\Light_Pinned.yy",
+                "resourceType": "GMObject"
             }
         },
         {
