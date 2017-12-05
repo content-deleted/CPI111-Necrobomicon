@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0860d806-70db-4856-a268-3607660a7f4d",
+            "Value": {
+                "id": "cbbd9a27-ead7-4fcc-bef1-0503c71dd2fc",
+                "resourcePath": "sprites\\hp_fire_left\\hp_fire_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09bf5012-af07-4c74-97cd-754522d231b5",
             "Value": {
                 "id": "40d6a12a-5ca6-4e6b-9db9-c75359eee8b7",
@@ -1111,6 +1119,14 @@
             }
         },
         {
+            "Key": "7f62075d-d1b3-4b10-8fea-7127df31f225",
+            "Value": {
+                "id": "e879c4c9-c84f-4816-aa7d-3ba245e25f82",
+                "resourcePath": "sprites\\hp_base\\hp_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7fc3c6ed-ee39-4ae5-bf1e-46fc67c50b9f",
             "Value": {
                 "id": "1b612ccd-be2c-4e9a-a4ac-b2abb3b352a0",
@@ -1255,6 +1271,14 @@
             }
         },
         {
+            "Key": "8b921ea7-1800-4acc-9e22-15036ebb3584",
+            "Value": {
+                "id": "b994f11d-6072-41a4-abe4-94d90f0d7061",
+                "resourcePath": "sprites\\hp_fire_right\\hp_fire_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e7f3ee3-bd20-45a7-b8af-3028da0b1830",
             "Value": {
                 "id": "35feea2f-37b4-4a49-bd48-a97cbc5906c6",
@@ -1267,6 +1291,14 @@
             "Value": {
                 "id": "5c7df4c5-ebb2-42cd-8350-acbfc58b7cf9",
                 "resourcePath": "sprites\\magnet_front\\magnet_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "910c1368-8ac5-43f5-a907-474b59b4b1ab",
+            "Value": {
+                "id": "2ae39ca4-64c1-4a5f-9481-a908979b9e3d",
+                "resourcePath": "sprites\\hp_fuse\\hp_fuse.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2204,6 +2236,14 @@
                 "id": "14d05d9c-2222-47e8-9242-d61a756a6a62",
                 "resourcePath": "scripts\\setCameraBound\\setCameraBound.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f6d17443-6e86-4a5b-8fcf-339cd27b9cb8",
+            "Value": {
+                "id": "ab5bcfb9-67f1-4c98-8aec-9014f19dd478",
+                "resourcePath": "objects\\Skeleton_purple\\Skeleton_purple.yy",
+                "resourceType": "GMObject"
             }
         },
         {

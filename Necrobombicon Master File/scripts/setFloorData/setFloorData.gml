@@ -73,6 +73,11 @@ case 1://this is the first floor of the game
 	dialogueSound[roomNum] = sfx_dialogue1
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
+	roomNum = 12; 
+	roomDialogueData[roomNum] = "";
+	bombTypeData[roomNum] = bombType.remote;
+	darkAlpha[roomNum] = .6
+	darkColor[roomNum] = make_color_rgb(30,0,50)
 break;
 
 

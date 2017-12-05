@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if ((x >= roomController.leftBound) & (x <= roomController.rightBound) & (y >= roomController.topBound) & (y <= roomController.bottomBound))
+{
 if(canMove == true && global.actor_allowUpdate){
 	xSpeed = round(lengthdir_x(intendedSpeed,intendedDir));
 	ySpeed = round(lengthdir_y(intendedSpeed,intendedDir));
@@ -12,4 +14,5 @@ switch(intendedDir)
 	case 180: sprite_index = spriteArray[anim.move, dir.west]; break;
 	case 270: sprite_index = spriteArray[anim.move, dir.south]; break;
 	default: sprite_index = spriteArray[anim.move, dir.south]; break;
+}
 }

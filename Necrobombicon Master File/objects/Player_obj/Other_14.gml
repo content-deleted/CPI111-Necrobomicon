@@ -12,6 +12,7 @@ image_xscale = 1;
 image_yscale = image_xscale;
 image_angle = 0;
 image_alpha = 1;
+visible = true;
 
 //deal damage
 healthCurrent -= 5;
