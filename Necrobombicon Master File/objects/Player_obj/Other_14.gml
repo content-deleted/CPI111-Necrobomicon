@@ -5,6 +5,7 @@ y = roomController.roomEntrenceY;
 
 //reset movement
 canMove = true;
+falling = false;
 
 //reset image values
 image_xscale = 1;
