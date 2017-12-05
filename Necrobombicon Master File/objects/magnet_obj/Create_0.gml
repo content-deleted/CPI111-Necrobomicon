@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+maxRange = 200;
 maxSpeed = 3;
 intendedSpeed = maxSpeed;
 intendedDir = 0;
