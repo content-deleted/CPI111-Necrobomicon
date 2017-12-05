@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-subalph=0.05;
+if(alph<= 0)
+	instance_destroy();
+alph-=subalph;
