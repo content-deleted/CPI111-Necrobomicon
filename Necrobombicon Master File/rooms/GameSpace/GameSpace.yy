@@ -252,8 +252,8 @@
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "modelName": "GMRTileLayer",
-            "prev_tileheight": 720,
-            "prev_tilewidth": 1280,
+            "prev_tileheight": 700,
+            "prev_tilewidth": 1300,
             "mvc": "1.0",
             "tiles": {
                 "SerialiseData": null,
@@ -264,7 +264,7 @@
                     2,2
                 ]
             },
-            "tilesetId": "253b70a5-7da7-4d4c-ba76-442f465d1f21",
+            "tilesetId": "00000000-0000-0000-0000-000000000000",
             "userdefined_depth": false,
             "visible": false,
             "x": 0,
