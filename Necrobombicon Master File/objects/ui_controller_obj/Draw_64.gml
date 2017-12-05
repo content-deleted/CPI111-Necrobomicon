@@ -1,6 +1,6 @@
 /// @description Forgive me, for I have sinned
 currentX = 25;
-currentY = camera_get_view_height(view_camera[0]) - sprite_get_height(healthbar_base_spr) - 25;
+currentY = camera_get_view_height(view_camera[0]) - sprite_get_height(hp_base);
 
 draw_set_font(font_explorer);
 if (global.actor_allowUpdate == false) // if game is paused
@@ -16,12 +16,17 @@ if (global.actor_allowUpdate == false) // if game is paused
 }
 
 // health bar
-draw_sprite(healthbar_base_spr,0,currentX,currentY);
+if (Player_obj.healthCurrent > .5 * Player_obj.healthMax)
+	draw_sprite(hp_base,0,currentX,currentY);
+else if (Player_obj.healthCurrent > .25 * Player_obj.healthMax)
+	draw_sprite(hp_base,1,currentX,currentY);
+else
+	draw_sprite(hp_base,2,currentX,currentY);
 for (i = 1; i <= Player_obj.healthCurrent; i++)
 {
-	draw_sprite(healthbar_unit_spr,0,currentX + (sprite_get_width(healthbar_base_spr) / 2) - (sprite_get_width(healthbar_unit_spr) / 2),currentY - (i * sprite_get_height(healthbar_unit_spr)));
+	draw_sprite(hp_fuse,i mod 2,currentX + 70,currentY - (i * sprite_get_height(hp_fuse)));
 }
-currentX += sprite_get_width(healthbar_base_spr) + 10;
+currentX += sprite_get_width(hp_base) + 10;
 // bomb icon
 draw_sprite(sigil_bkg,0,currentX,currentY);	// background image
 currentX += 48;
