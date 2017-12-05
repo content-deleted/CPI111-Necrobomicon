@@ -4,3 +4,5 @@ event_inherited();
 eventNumber= 0;
 flipped = false;
 isLightSwitch = false;
+seperateRoomControl = false;
+otherRoom = 0;

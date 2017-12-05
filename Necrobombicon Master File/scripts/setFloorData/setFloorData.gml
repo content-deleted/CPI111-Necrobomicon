@@ -68,7 +68,6 @@ case 1://this is the first floor of the game
 	roomNum = 6; 
 	roomDialogueData[roomNum] = "Test test test test test test test test test test.";
 	bombTypeData[roomNum] = bombType.base;
-	enableShaderData[roomNum] = true;
 	/////////////////////////////////////////////////////
 break;
 
@@ -96,10 +95,19 @@ for(var i = 0; i<=rooms; i++;)
 	
 with(RoomEventController){
 	var eventRoom = getActorRoom(self);
-    for(var i = dataStart; i<dataEnd; i++){
+    for(var i = dataStart; i<=dataEnd; i++){
 		other.eventFlagsData[eventRoom, i] = false;
 	    other.eventFlags[i] = false;
 	}
 	other.eventControllersData[eventRoom] = self;
 	other.roomLocksData[eventRoom]++;
+}
+
+//for locked doors
+with(LockedDoor){
+	var eventRoom = getActorRoom(self);
+    for(var i = dataStart; i<=dataEnd; i++){
+		other.eventFlagsData[eventRoom, i] = false;
+	    other.eventFlags[i] = false;
+	}
 }

@@ -943,6 +943,14 @@
             }
         },
         {
+            "Key": "773288c9-b043-4905-8e71-4f59f0bea627",
+            "Value": {
+                "id": "540b7740-910d-4d26-bf02-6a67cf7ad381",
+                "resourcePath": "shaders\\outline\\outline.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "7979d0b7-8179-43b4-bfd9-3d71cc33d009",
             "Value": {
                 "id": "6a64d087-2c89-46cf-8d2d-90d49a1c1f5e",
@@ -1300,6 +1308,14 @@
                 "id": "e3e399e2-1b32-48f1-a4f9-b2635551a85d",
                 "resourcePath": "sprites\\skeleton_walkRight\\skeleton_walkRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a15211b9-1232-4638-819e-cc7ea94e33aa",
+            "Value": {
+                "id": "19ea1f11-3c5e-4d2c-94e1-92d237fb6998",
+                "resourcePath": "objects\\LockedDoor\\LockedDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
