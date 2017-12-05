@@ -3,7 +3,7 @@
 event_inherited();
 
 //destroy destructable tiles
-destroyTileColliding(self,0,0);
+destroyTileColliding(x,y,1);
 
 damage = 1
 

@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "41a140ac-d338-44b4-85fd-e0e420870bc3",
+            "Value": {
+                "id": "604c5f0b-42c3-414c-9563-cfdb3aae80a4",
+                "resourcePath": "scripts\\setDefaultShaderData\\setDefaultShaderData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "41b09958-1c2c-47d5-a340-8d4160bcf44a",
             "Value": {
                 "id": "a6d29b93-6dae-4aaf-87b2-0b065b895530",
@@ -932,6 +940,14 @@
                 "id": "9d69b4da-2a4b-4642-a473-d7d5ec4ebc84",
                 "resourcePath": "views\\762ee963-0663-4974-ba3c-99acc970fc5f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "76c1136d-26cf-45ce-b11c-61508ea63f82",
+            "Value": {
+                "id": "a0f1b2a5-1591-4a9f-93f6-a77f8ca42fb9",
+                "resourcePath": "sounds\\sfx_dialogue2\\sfx_dialogue2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1415,6 +1431,22 @@
             }
         },
         {
+            "Key": "b2700636-acc2-4828-83f1-69d265212418",
+            "Value": {
+                "id": "d609a1f1-e716-4fb9-88e8-805cf15547bb",
+                "resourcePath": "sounds\\sfx_dialogue3\\sfx_dialogue3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b4993015-88cf-43d0-85d3-60c8bfe3cae2",
+            "Value": {
+                "id": "5a3a64fa-3c52-4907-b794-cc4009e2d7ef",
+                "resourcePath": "views\\b4993015-88cf-43d0-85d3-60c8bfe3cae2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b5323d40-29d9-4b34-85f4-f17f66f531e5",
             "Value": {
                 "id": "e4e71a2b-8255-407e-8d25-64ce42abb3f2",
@@ -1676,6 +1708,14 @@
                 "id": "ea4e1be2-6630-4168-8a12-29ccec7ac11a",
                 "resourcePath": "sprites\\speech_bubble_spr\\speech_bubble_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cee4a90d-7133-4a5a-a35b-a1b207e140db",
+            "Value": {
+                "id": "699fdda7-cbf6-4ae3-87af-97658e36857d",
+                "resourcePath": "sounds\\sfx_dialogue1\\sfx_dialogue1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1999,14 +2039,6 @@
             }
         },
         {
-            "Key": "f1b54d2c-7bd6-45c3-b558-d611d7ba7d26",
-            "Value": {
-                "id": "efc36ca3-d82a-45b1-8a35-fcd969f806e9",
-                "resourcePath": "scripts\\setTileAtPoints\\setTileAtPoints.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f32a9d6b-7007-4a81-a521-6b1314a649db",
             "Value": {
                 "id": "4d76f94a-5a5a-4d14-879f-82cb9f218573",
@@ -2151,7 +2183,6 @@
         "72b161bb-a412-4ee4-aec2-229450f0188d",
         "41b09958-1c2c-47d5-a340-8d4160bcf44a",
         "c1fee462-39de-4242-909b-22e77e4c0f70",
-        "f1b54d2c-7bd6-45c3-b558-d611d7ba7d26",
         "6a4affdd-9309-4bb7-bc16-967c8a68af92",
         "985253a3-78f6-4b61-945b-2311e8f6c3bb",
         "2501e714-24c8-4c73-85b9-aec9a9a56f85",
@@ -2168,7 +2199,8 @@
         "7fce737e-ffad-43d2-b219-eb9f594fa8ee",
         "ed0e2251-3ebb-42eb-9680-812aa32973ba",
         "b6c02dba-43ec-4a78-bbaa-90a61922ceae",
-        "7c48f8f5-edde-4e58-b315-08ed852c49a1"
+        "7c48f8f5-edde-4e58-b315-08ed852c49a1",
+        "41a140ac-d338-44b4-85fd-e0e420870bc3"
     ],
     "tutorial": ""
 }
