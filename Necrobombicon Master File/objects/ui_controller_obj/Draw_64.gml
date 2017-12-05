@@ -39,7 +39,7 @@ if (roomController.bombBag)
 	draw_text(currentX + 10,currentY,string(roomController.currentBombs));
 currentX -= 48;
 currentY -= 48;
-currentX += sprite_get_width(sigil_clear_spr) + 10;
+currentX += sprite_get_width(sigil_bkg) + 10;
 // sigil icon
 switch(Player_obj.currentSigType)
 {
@@ -48,7 +48,7 @@ switch(Player_obj.currentSigType)
 	case sigType.logic:  draw_sprite(sigil_logic_spr,0,currentX,currentY); break;
 	case sigType.freeze:  draw_sprite(sigil_freeze_spr,0,currentX,currentY); break;
 	case sigType.time: draw_sprite(sigil_time_spr,0,currentX,currentY); break;
-	default: draw_sprite(sigil_clear_spr,0,currentX,currentY); break;	// includes clear
+	default: draw_sprite(sigil_bkg,0,currentX,currentY); break;	// includes clear
 }
 currentX += sprite_get_width(sigil_clear_spr) + 10;
 // necrobombicon and talk box will go here
