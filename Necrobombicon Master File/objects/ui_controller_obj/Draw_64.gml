@@ -50,9 +50,12 @@ switch(Player_obj.currentSigType)
 	case sigType.time: draw_sprite(sigil_time_spr,0,currentX,currentY); break;
 	default: draw_sprite(sigil_bkg,0,currentX,currentY); break;	// includes clear
 }
+// necrobombicon
 currentX += sprite_get_width(sigil_bkg) + 10;
-// necrobombicon and talk box will go here
 draw_sprite_stretched(book_talk_spr,0,currentX,currentY,100,100)
+//dialogue
 currentX += 80
 currentY -= 20
-draw_sprite(speech_bubble_spr,0,currentX,currentY)
+if (string_length(UI_BottomDialogue.textContent)>0) {
+	draw_sprite(speech_bubble_spr,0,currentX,currentY)
+}

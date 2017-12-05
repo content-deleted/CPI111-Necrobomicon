@@ -11,6 +11,7 @@ intendedDir = 0;
 intendedSpeed = 0;
 xSpeed = 0;
 ySpeed = 0;
+falling = false;//used by the special pit tiles 
 
 //magnitude
 environmentVectMag = ds_list_create();

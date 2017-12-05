@@ -21,7 +21,7 @@ case 0: //this is our default case, its just menus and stuff
 break; 
 
 case 1://this is the first floor of the game
-	rooms = 15 //here we set the total number of rooms on the floor
+	rooms = 8 //here we set the total number of rooms on the floor
 	var i;
 	for(i=1;i<rooms+1;i++) {setDefaultData(i)}
 	/////////////////////////////////////////////////////
@@ -66,12 +66,8 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 6 start
 	roomNum = 6; 
-	roomDialogueData[roomNum] = "Test test test test test test test test test test test test test test test test test test.";
+	roomDialogueData[roomNum] = "Test test test test test test test test test test.";
 	bombTypeData[roomNum] = bombType.base;
-	darkAlpha[roomNum] = .6
-	darkColor[roomNum] = make_color_rgb(40,35,30)
-	dialogueSound[roomNum] = sfx_dialogue1
-	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 break;
 
@@ -99,18 +95,10 @@ for(var i = 0; i<=rooms; i++;)
 	
 with(RoomEventController){
 	var eventRoom = getActorRoom(self);
-    for(var i = dataStart; i<=dataEnd; i++){
+    for(var i = dataStart; i<dataEnd; i++){
 		other.eventFlagsData[eventRoom, i] = false;
 	    other.eventFlags[i] = false;
 	}
 	other.eventControllersData[eventRoom] = self;
 	other.roomLocksData[eventRoom]++;
-}
-
-with(LockedDoor){
-	var eventRoom = getActorRoom(self);
-    for(var i = dataStart; i<=dataEnd; i++){
-		other.eventFlagsData[eventRoom, i] = false;
-	    other.eventFlags[i] = false;
-	}
 }

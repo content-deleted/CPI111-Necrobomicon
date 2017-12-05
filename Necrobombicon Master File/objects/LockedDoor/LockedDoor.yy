@@ -1,38 +1,28 @@
 {
-    "id": "a15211b9-1232-4638-819e-cc7ea94e33aa",
+    "id": "d4efb706-0b3a-4f30-ad88-a703e101112f",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "LockedDoor",
     "eventList": [
         {
-            "id": "5da42d53-5eca-4365-8bcd-65a47c09352f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "a15211b9-1232-4638-819e-cc7ea94e33aa"
-        },
-        {
-            "id": "7429d560-dd54-4f72-aa1d-1efd31cf7b25",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 76,
-            "eventtype": 8,
-            "m_owner": "a15211b9-1232-4638-819e-cc7ea94e33aa"
-        },
-        {
-            "id": "38dce7d1-2565-4e98-bd10-a60e5e186402",
+            "id": "1412ad05-01d1-4da6-a39e-12d4315b610f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a15211b9-1232-4638-819e-cc7ea94e33aa"
+            "m_owner": "d4efb706-0b3a-4f30-ad88-a703e101112f"
+        },
+        {
+            "id": "1fe37eaf-2fa0-401c-bfb1-b2bd9562d1b3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "d4efb706-0b3a-4f30-ad88-a703e101112f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

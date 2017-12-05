@@ -943,11 +943,11 @@
             }
         },
         {
-            "Key": "773288c9-b043-4905-8e71-4f59f0bea627",
+            "Key": "76c1136d-26cf-45ce-b11c-61508ea63f82",
             "Value": {
-                "id": "540b7740-910d-4d26-bf02-6a67cf7ad381",
-                "resourcePath": "shaders\\outline\\outline.yy",
-                "resourceType": "GMShader"
+                "id": "a0f1b2a5-1591-4a9f-93f6-a77f8ca42fb9",
+                "resourcePath": "sounds\\sfx_dialogue2\\sfx_dialogue2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1036,6 +1036,14 @@
                 "id": "e2b10d04-248d-4cdb-b271-7bd29b9fed21",
                 "resourcePath": "views\\7efbb3e8-71de-4078-a786-22ff419b1176.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7faee049-3242-4047-aaef-a74c4d070be9",
+            "Value": {
+                "id": "4df462bc-c692-47e6-8bab-d7c968befb3b",
+                "resourcePath": "shaders\\shader2\\shader2.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -1311,14 +1319,6 @@
             }
         },
         {
-            "Key": "a15211b9-1232-4638-819e-cc7ea94e33aa",
-            "Value": {
-                "id": "19ea1f11-3c5e-4d2c-94e1-92d237fb6998",
-                "resourcePath": "objects\\LockedDoor\\LockedDoor.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a1d776b8-be3f-4d05-bb9d-3145611b24f3",
             "Value": {
                 "id": "7efe3d77-04d8-4396-864b-0679e8dc3342",
@@ -1385,7 +1385,7 @@
         {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
-                "id": "527e8cdc-607e-4b47-9968-e6def777ea09",
+                "id": "8df9edc5-eec5-461e-aa2a-b0b502e84d4b",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
             }
@@ -1436,6 +1436,22 @@
                 "id": "cdaf92ba-465b-4a72-b4d3-d908f6a5b836",
                 "resourcePath": "scripts\\ActorCollision\\ActorCollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b2700636-acc2-4828-83f1-69d265212418",
+            "Value": {
+                "id": "d609a1f1-e716-4fb9-88e8-805cf15547bb",
+                "resourcePath": "sounds\\sfx_dialogue3\\sfx_dialogue3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b4993015-88cf-43d0-85d3-60c8bfe3cae2",
+            "Value": {
+                "id": "5a3a64fa-3c52-4907-b794-cc4009e2d7ef",
+                "resourcePath": "views\\b4993015-88cf-43d0-85d3-60c8bfe3cae2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1703,6 +1719,14 @@
             }
         },
         {
+            "Key": "cee4a90d-7133-4a5a-a35b-a1b207e140db",
+            "Value": {
+                "id": "699fdda7-cbf6-4ae3-87af-97658e36857d",
+                "resourcePath": "sounds\\sfx_dialogue1\\sfx_dialogue1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cefdd61b-da98-4067-8c1f-641de5d5a05c",
             "Value": {
                 "id": "5d4758c5-77e8-4f86-97f5-d37ba8f1df52",
@@ -1779,6 +1803,14 @@
             "Value": {
                 "id": "4ab85248-5953-4f1b-8ce1-c7239d918de8",
                 "resourcePath": "objects\\goblin_obj\\goblin_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4efb706-0b3a-4f30-ad88-a703e101112f",
+            "Value": {
+                "id": "cac00a49-e979-431f-bab6-4092af8eedde",
+                "resourcePath": "objects\\LockedDoor\\LockedDoor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2049,7 +2081,7 @@
         {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
-                "id": "0d523d43-0f17-4f80-b632-ffe8f5edb126",
+                "id": "bb3bd24f-2814-47d2-8f3a-8344f22073c2",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
