@@ -167,14 +167,6 @@
             }
         },
         {
-            "Key": "0f4df08a-dd04-41ee-887a-e11568581169",
-            "Value": {
-                "id": "fed27961-835e-4005-a1c2-d20e69edd4cc",
-                "resourcePath": "views\\0f4df08a-dd04-41ee-887a-e11568581169.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "0ffe84f4-9420-41cd-9fb9-4e5313759360",
             "Value": {
                 "id": "44a3beef-ef27-47c7-a97f-53da1d98d385",
@@ -255,6 +247,14 @@
             }
         },
         {
+            "Key": "19bff527-36f3-4a27-92db-68b5524e6342",
+            "Value": {
+                "id": "0d6f530f-3e9b-4dfa-b596-5d2caaaef1ef",
+                "resourcePath": "objects\\magnet_obj\\magnet_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b7fd86f-e157-4199-a1c0-c7e8068f5a55",
             "Value": {
                 "id": "3d91906b-0793-4aa2-81f3-cc76878efc93",
@@ -276,6 +276,14 @@
                 "id": "97e08213-4a30-4a60-9f37-8ea96eff96b1",
                 "resourcePath": "sounds\\sfx_skeletonGroan2\\sfx_skeletonGroan2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "20ed3949-c451-4036-9d4a-e805f984941d",
+            "Value": {
+                "id": "2d2c4753-8aa6-4a07-8bb5-91a6c33996bb",
+                "resourcePath": "sprites\\magnet_back\\magnet_back.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -855,6 +863,14 @@
             }
         },
         {
+            "Key": "70d7cdc4-f60d-4da4-9200-a888f23ac2c9",
+            "Value": {
+                "id": "81eb29d6-a440-4ea8-9875-ca79203216ec",
+                "resourcePath": "views\\70d7cdc4-f60d-4da4-9200-a888f23ac2c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "718e7420-a604-4257-80e9-27be657308f9",
             "Value": {
                 "id": "119c1390-e073-401c-8196-b470b6ceb57f",
@@ -1191,6 +1207,14 @@
             }
         },
         {
+            "Key": "8f9e4865-8357-4df0-8f7b-81a4c9caf05d",
+            "Value": {
+                "id": "5c7df4c5-ebb2-42cd-8350-acbfc58b7cf9",
+                "resourcePath": "sprites\\magnet_front\\magnet_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "91dfdfc9-2248-4bf4-8433-8cd94d67a53f",
             "Value": {
                 "id": "482fdfd0-eae1-40f6-9627-045466b48406",
@@ -1276,6 +1300,14 @@
                 "id": "fa78ed54-0455-4f62-b878-3a5f3fdf153b",
                 "resourcePath": "scripts\\damageActor\\damageActor.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9a6ba38f-ece9-4c81-a511-4b80c5c231be",
+            "Value": {
+                "id": "67036e90-c61c-495d-bf7f-a259b17e8c2c",
+                "resourcePath": "sprites\\magnet_left\\magnet_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1388,6 +1420,14 @@
                 "id": "2b7af704-f2f6-483e-8210-cd1e5414cf1d",
                 "resourcePath": "objects\\Skeleton_red\\Skeleton_red.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b020ce9b-522f-44c8-a06e-8f3f47da0e7d",
+            "Value": {
+                "id": "b5435638-314b-4e60-bae7-40a2706ce31c",
+                "resourcePath": "sprites\\magnet_right\\magnet_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

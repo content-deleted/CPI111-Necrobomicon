@@ -5,7 +5,7 @@ var tile = tilemap_get_at_pixel(tilemap,x,y);
 if(tile!= 0){
 	//this is the threshold for velocity not to fall
 	var threshold = 10;
-	if(tile <= floorTileId.pit){//tiles 1 to 13 are pits
+	if((tile <= floorTileId.pit) & canFall){//tiles 1 to 13 are pits
 		show_debug_message("on pit");
 		if(sqrt(power(xSpeed,2) + power(ySpeed,2)) < threshold){
 			//actor is falling
