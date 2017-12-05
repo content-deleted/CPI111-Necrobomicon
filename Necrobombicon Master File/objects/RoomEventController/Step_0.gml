@@ -1,7 +1,7 @@
 /// @description  check if the event array is correct
 var eventCheck = true;
 
-for(var i = dataStart; i<dataEnd; i++)
+for(var i = dataStart; i<=dataEnd; i++)
 {
 	if(correctEventFlags[i] != roomController.eventFlags[i])
 	{

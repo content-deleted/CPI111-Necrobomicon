@@ -895,6 +895,14 @@
             }
         },
         {
+            "Key": "6f710a5b-be23-4ba1-ac46-7f4426111797",
+            "Value": {
+                "id": "89cc6622-11f5-46d1-827c-289e62e97568",
+                "resourcePath": "objects\\LockedDoor\\LockedDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6faeddaa-b7ac-4e9d-89f5-448d774eb49d",
             "Value": {
                 "id": "badc9d57-a91b-484a-bca5-cbef451a94b8",
@@ -1452,6 +1460,14 @@
                 "id": "1760f4cd-9fa7-4e9f-926f-7e0615c0de75",
                 "resourcePath": "sounds\\mus_floor1\\mus_floor1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "96769bb9-719f-4b28-9dbf-685c527af441",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -2156,6 +2172,14 @@
                 "id": "254e20b9-1c6e-4afd-9fc9-ea54e9efba94",
                 "resourcePath": "views\\f3f5facd-652b-4314-8a22-42183607350b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "bd24e59b-15b4-41a7-8cd8-43f1e7c06fdc",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {

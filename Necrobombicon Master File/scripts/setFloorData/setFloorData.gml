@@ -73,6 +73,11 @@ case 1://this is the first floor of the game
 	dialogueSound[roomNum] = sfx_dialogue1
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
+	roomNum = 12; 
+	roomDialogueData[roomNum] = "";
+	bombTypeData[roomNum] = bombType.remote;
+	darkAlpha[roomNum] = .6
+	darkColor[roomNum] = make_color_rgb(30,0,50)
 break;
 
 
@@ -99,10 +104,18 @@ for(var i = 0; i<=rooms; i++;)
 	
 with(RoomEventController){
 	var eventRoom = getActorRoom(self);
-    for(var i = dataStart; i<dataEnd; i++){
+    for(var i = dataStart; i<=dataEnd; i++){
 		other.eventFlagsData[eventRoom, i] = false;
 	    other.eventFlags[i] = false;
 	}
 	other.eventControllersData[eventRoom] = self;
 	other.roomLocksData[eventRoom]++;
+}
+
+with(LockedDoor){
+	var eventRoom = getActorRoom(self);
+    for(var i = dataStart; i<=dataEnd; i++){
+		other.eventFlagsData[eventRoom, i] = false;
+	    other.eventFlags[i] = false;
+	}
 }
