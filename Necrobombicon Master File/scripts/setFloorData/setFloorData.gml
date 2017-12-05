@@ -66,8 +66,10 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 6 start
 	roomNum = 6; 
-	roomDialogueData[roomNum] = "Test test test test test test test test test test.";
+	roomDialogueData[roomNum] = "Test test test test test test test test test test test test test test test test test test.";
 	bombTypeData[roomNum] = bombType.base;
+	darkAlpha[roomNum] = .8
+	darkColor[roomNum] = make_color_rgb(30,40,60)
 	/////////////////////////////////////////////////////
 break;
 
