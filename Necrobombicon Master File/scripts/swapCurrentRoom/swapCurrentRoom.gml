@@ -27,6 +27,9 @@ isDisco = disco[newRoom]
 currentDarkAlpha = darkAlpha[newRoom]
 currentDarkColor = darkColor[newRoom]
 
+//Shaders
+enableShader = enableShaderData[newRoom];
+
 //make sure the previous room stays cleared
 roomLocksData[previousRoom] = roomLocks;
 roomKeysData[previousRoom] = roomKeys; 

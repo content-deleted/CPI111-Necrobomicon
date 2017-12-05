@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "41a140ac-d338-44b4-85fd-e0e420870bc3",
+            "Value": {
+                "id": "604c5f0b-42c3-414c-9563-cfdb3aae80a4",
+                "resourcePath": "scripts\\setDefaultShaderData\\setDefaultShaderData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "41b09958-1c2c-47d5-a340-8d4160bcf44a",
             "Value": {
                 "id": "a6d29b93-6dae-4aaf-87b2-0b065b895530",
@@ -1359,6 +1367,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "527e8cdc-607e-4b47-9968-e6def777ea09",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "ac9ec9d6-1522-40f7-9890-a39d88043ef1",
             "Value": {
                 "id": "dcd1aabf-f4a8-4e03-93ea-cd2dedc42680",
@@ -1991,14 +2007,6 @@
             }
         },
         {
-            "Key": "f1b54d2c-7bd6-45c3-b558-d611d7ba7d26",
-            "Value": {
-                "id": "efc36ca3-d82a-45b1-8a35-fcd969f806e9",
-                "resourcePath": "scripts\\setTileAtPoints\\setTileAtPoints.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f32a9d6b-7007-4a81-a521-6b1314a649db",
             "Value": {
                 "id": "4d76f94a-5a5a-4d14-879f-82cb9f218573",
@@ -2020,6 +2028,14 @@
                 "id": "254e20b9-1c6e-4afd-9fc9-ea54e9efba94",
                 "resourcePath": "views\\f3f5facd-652b-4314-8a22-42183607350b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "0d523d43-0f17-4f80-b632-ffe8f5edb126",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
@@ -2135,7 +2151,6 @@
         "72b161bb-a412-4ee4-aec2-229450f0188d",
         "41b09958-1c2c-47d5-a340-8d4160bcf44a",
         "c1fee462-39de-4242-909b-22e77e4c0f70",
-        "f1b54d2c-7bd6-45c3-b558-d611d7ba7d26",
         "6a4affdd-9309-4bb7-bc16-967c8a68af92",
         "985253a3-78f6-4b61-945b-2311e8f6c3bb",
         "2501e714-24c8-4c73-85b9-aec9a9a56f85",
@@ -2152,7 +2167,8 @@
         "7fce737e-ffad-43d2-b219-eb9f594fa8ee",
         "ed0e2251-3ebb-42eb-9680-812aa32973ba",
         "b6c02dba-43ec-4a78-bbaa-90a61922ceae",
-        "7c48f8f5-edde-4e58-b315-08ed852c49a1"
+        "7c48f8f5-edde-4e58-b315-08ed852c49a1",
+        "41a140ac-d338-44b4-85fd-e0e420870bc3"
     ],
     "tutorial": ""
 }

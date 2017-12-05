@@ -21,7 +21,7 @@ case 0: //this is our default case, its just menus and stuff
 break; 
 
 case 1://this is the first floor of the game
-	rooms = 8 //here we set the total number of rooms on the floor
+	rooms = 15 //here we set the total number of rooms on the floor
 	var i;
 	for(i=1;i<rooms+1;i++) {setDefaultData(i)}
 	/////////////////////////////////////////////////////
@@ -68,6 +68,7 @@ case 1://this is the first floor of the game
 	roomNum = 6; 
 	roomDialogueData[roomNum] = "Test test test test test test test test test test.";
 	bombTypeData[roomNum] = bombType.base;
+	enableShaderData[roomNum] = true;
 	/////////////////////////////////////////////////////
 break;
 
