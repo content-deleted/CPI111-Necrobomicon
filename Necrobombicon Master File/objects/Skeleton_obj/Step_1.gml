@@ -33,8 +33,10 @@ switch (state) {
 		intendedDir = angle
 		intendedSpeed = 1.5
 		if (timer < 0) {
+			//throw bone
 			ThrowProjectile(bone_projectile_obj)
 			playSoundAtSelf(sfx_bonetoss)
+			audio_sound_pitch(sfx_bonetoss,random_range(0.7,1.5))
 			timer = room_speed
 		}
 	break

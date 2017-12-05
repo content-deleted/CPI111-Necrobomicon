@@ -1,1 +1,0 @@
-doorDirection = doorDir.south;

@@ -60,3 +60,6 @@ if(eventControllersData[previousRoom] != pointer_null){//set the data
 //finally switch out the room
 currentRoom = newRoom;
 setCameraBound(currentRoom);
+
+//let the UI controller we've entered a new room
+with (ui_controller_obj) {event_user(0)}
