@@ -10,18 +10,32 @@ var yB;
 if(hScroll) xB = border; else xB = 0;
 if(vScroll) yB = border; else yB = 0;
 
+var curBottomBound = bottomBound;
+var curTopBound =topBound;
+var curRightBound =rightBound;
+var curLeftBound =leftBound;
+
+//check lerp
+if(linearAmount != 1){
+	var curBottomBound = lerp(bottomBoundOld,bottomBound,linearAmount);
+	var curTopBound = lerp(topBoundOld, topBound, linearAmount);
+	var curRightBound = lerp(rightBoundOld, rightBound, linearAmount);
+	var curLeftBound = lerp(leftBoundOld, leftBound, linearAmount);
+	linearAmount += linearSpeed;
+}
+
 //check if the camera is out of bounds and move it back if so
-if(camera_get_view_y(CameraId) + tHeight > bottomBound){
-	camera_set_view_pos(CameraId,camera_get_view_x(CameraId),bottomBound-tHeight);
+if(camera_get_view_y(CameraId) + tHeight > curBottomBound){
+	camera_set_view_pos(CameraId,camera_get_view_x(CameraId),curBottomBound-tHeight);
 }
-if(camera_get_view_y(CameraId) < topBound){
-	camera_set_view_pos(CameraId,camera_get_view_x(CameraId),topBound);
+if(camera_get_view_y(CameraId) < curTopBound){
+	camera_set_view_pos(CameraId,camera_get_view_x(CameraId),curTopBound);
 }
-if(camera_get_view_x(CameraId) + tWidth > rightBound){
-	camera_set_view_pos(CameraId,rightBound-tWidth,camera_get_view_y(CameraId));
+if(camera_get_view_x(CameraId) + tWidth > curRightBound){
+	camera_set_view_pos(CameraId,curRightBound-tWidth,camera_get_view_y(CameraId));
 }
-if(camera_get_view_x(CameraId) < leftBound){
-	camera_set_view_pos(CameraId,leftBound,camera_get_view_y(CameraId));
+if(camera_get_view_x(CameraId) < curLeftBound){
+	camera_set_view_pos(CameraId,curLeftBound,camera_get_view_y(CameraId));
 }
 
 //now we set the borders for following the player
@@ -37,10 +51,13 @@ if(Player_obj.y -topBound <= border)
 
 if(bottomBound - Player_obj.y <= border)
 	yB = 0;
-
-if(camera_get_view_border_x(CameraId) != xB || camera_get_view_border_y(CameraId) != yB)
-	camera_set_view_border(CameraId,xB,yB);
 	
+if(linearAmount==1){//we're not lerpin'
+	if(camera_get_view_border_x(CameraId) != xB || camera_get_view_border_y(CameraId) != yB)
+		camera_set_view_border(CameraId,xB,yB);
+}
+else
+	camera_set_view_border(CameraId,0,0);
 //code for shaking the screen
 if(shakescreen){
 	camera_set_view_pos(CameraId,sX+irandom_range(-horizontalStrength,horizontalStrength),sY+irandom_range(-verticalStrength,verticalStrength));

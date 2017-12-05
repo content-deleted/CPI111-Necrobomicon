@@ -9,11 +9,16 @@ hScroll = false;
 
 //calculate the x and y bounds of the current room
 
-
 var tWidth = tilemap_get_tile_width(tilemapId);
 var tHeight = tilemap_get_tile_height(tilemapId);
 var tX = tilemap_get_cell_x_at_pixel(tilemapId, Player_obj.x,Player_obj.y);
 var tY = tilemap_get_cell_y_at_pixel(tilemapId, Player_obj.x,Player_obj.y);
+
+//set old variables
+bottomBoundOld = camera_get_view_y(CameraId)+tHeight;
+topBoundOld = camera_get_view_y(CameraId);
+leftBoundOld = camera_get_view_x(CameraId);
+rightBoundOld = camera_get_view_x(CameraId)+tWidth;
 
 //check right
 var found = false;
@@ -65,7 +70,14 @@ if(bottomBound-topBound > tHeight)
 	vScroll = true;
 if(rightBound - leftBound > tWidth)
 	hScroll = true;
-	
+
+//set up variables for lerp
+linearSpeed = 0.025;
+linearAmount = 0;
+
+
+
+
 //set the camera clamp to the positions we've calculated 
 //camera_set_view_pos(CameraId,
 //					clamp( camera_get_view_x(CameraId), rightBound, leftBound),
