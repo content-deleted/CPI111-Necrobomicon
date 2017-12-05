@@ -7,7 +7,7 @@ maxSpeed = 12;
 
 healthMax = 3;
 healthCurrent = healthMax;
-damage = 4;
+damage = 3;
 
 canMove = true;
 

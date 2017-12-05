@@ -32,9 +32,11 @@ for (i = 1; i <= Player_obj.healthCurrent; i++)
 }
 
 image_speed = 0.2 //set the animation speed
+if(Player_obj.healthCurrent > 0){
 //check which fire to draw
 if(Player_obj.healthCurrent mod 2) draw_sprite_ext(hp_fire_right,-1,currentX + horzOffset-35,currentY - (Player_obj.healthCurrent * sprite_get_height(hp_fuse)/2),0.5,0.5,0,c_white,1);
 else draw_sprite_ext(hp_fire_left,-1,currentX + horzOffset-25,currentY - (Player_obj.healthCurrent * sprite_get_height(hp_fuse)/2),0.5,0.5,0,c_white,1);
+}
 
 currentX += sprite_get_width(hp_base)/2 + 10;
 currentY +=30;//one day we will pay for our sins
