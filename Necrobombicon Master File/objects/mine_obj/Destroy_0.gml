@@ -7,4 +7,5 @@ with(instance_create_layer(x,y,"Instances",Explosion_Basic)) {
 	image_speed /= 2
 	damage=4
 }
+instance_create_layer(x,y,"Sigils",scorchmark_obj);
 shakeScreen(80,20,1*room_speed,true)

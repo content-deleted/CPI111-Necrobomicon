@@ -11,7 +11,8 @@
         "bd40657b-e981-46b8-a769-3ec0b6979153",
         "7a8e3ac1-a6da-41c4-81cf-54172ec72e2c",
         "ff6d0792-aa19-47a1-b2f5-177460a7af16",
-        "0ffe84f4-9420-41cd-9fb9-4e5313759360"
+        "0ffe84f4-9420-41cd-9fb9-4e5313759360",
+        "dce5a745-8c4c-4172-bc2b-c5045ef0e50b"
     ],
     "filterType": "GMSprite",
     "folderName": "Bombs",
