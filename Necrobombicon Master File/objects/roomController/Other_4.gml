@@ -49,10 +49,9 @@ alarm[2]=1
 
 //enum containing the types of special tiles
 enum floorTileId {
-	null,
-	spikes,
-	ice,
-	pit
+	pit = 13,//1 to 13
+	spike = 14,
+	ice =15
 }
 
 // set up the room variables
