@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "09eaed00-b95a-48cf-a0fa-18654d56eeb9",
+            "Value": {
+                "id": "12e96fd0-6e42-4aca-9e81-efffb2e6b64c",
+                "resourcePath": "sprites\\book_talk_spr\\book_talk_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ac04280-806e-4cf8-9594-af4af3b7084c",
             "Value": {
                 "id": "43cd5f1f-75c4-48fe-a7a1-07414ed45cec",
@@ -1351,14 +1359,6 @@
             }
         },
         {
-            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
-            "Value": {
-                "id": "e6e72c11-0e1b-452d-9818-0c38317aa5d4",
-                "resourcePath": "options\\linux\\options_linux.yy",
-                "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
             "Key": "ac9ec9d6-1522-40f7-9890-a39d88043ef1",
             "Value": {
                 "id": "dcd1aabf-f4a8-4e03-93ea-cd2dedc42680",
@@ -1660,6 +1660,14 @@
                 "id": "2cb5f1f1-9b71-43b1-8f61-034ae8a52fe9",
                 "resourcePath": "sounds\\sfx_gjDeath3\\sfx_gjDeath3.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "cec17ea5-546e-40e8-9825-9cb948a17794",
+            "Value": {
+                "id": "ea4e1be2-6630-4168-8a12-29ccec7ac11a",
+                "resourcePath": "sprites\\speech_bubble_spr\\speech_bubble_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2012,14 +2020,6 @@
                 "id": "254e20b9-1c6e-4afd-9fc9-ea54e9efba94",
                 "resourcePath": "views\\f3f5facd-652b-4314-8a22-42183607350b.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
-            "Value": {
-                "id": "4ec0315d-2fd2-4b6d-8ddc-42973249e783",
-                "resourcePath": "options\\mac\\options_mac.yy",
-                "resourceType": "GMMacOptions"
             }
         },
         {
