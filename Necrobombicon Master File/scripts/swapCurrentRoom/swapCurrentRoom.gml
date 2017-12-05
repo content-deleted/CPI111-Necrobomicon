@@ -94,8 +94,8 @@ with(Player_obj){
 	}
 }
 
-show_debug_message("entX:"+string(roomEntrenceX) + "entY:"+string(roomEntrenceY))
-show_debug_message("PlayerX:"+string(Player_obj.x) + "entY:"+string(Player_obj.y))
+//show_debug_message("entX:"+string(roomEntrenceX) + "entY:"+string(roomEntrenceY))
+//show_debug_message("PlayerX:"+string(Player_obj.x) + "entY:"+string(Player_obj.y))
 
 //let the UI controller we've entered a new room
 with (ui_controller_obj) {event_user(0)}
