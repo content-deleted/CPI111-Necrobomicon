@@ -3,4 +3,4 @@
 event_inherited()
 roomDialogueMemory = ""
 font = font_book
-textSecondsDelay = 0.04
+textSecondsDelay = 0.05

@@ -73,6 +73,12 @@ case 1://this is the first floor of the game
 	dialogueSound[roomNum] = sfx_dialogue1
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
+	roomNum = 8
+	roomDialogueData[roomNum] = "WELCOME, JONES, TO MY PRIVATE LOUNGE% (AND ETERNAL PRISON).%%|I CHOSE THE DECOR MYSELF! IT'S QUITE LOVELY, AS YOU CAN SEE...%|BUT IT'S MISSING A LITTLE SOMETHING.%%% IT'S MISSING...EXPLOSIONS.%%%%%|"
+	bombTypeData[roomNum] = bombType.base;
+	darkColor[roomNum] = make_color_rgb(40,30,20)
+	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
 	roomNum = 9
 	roomDialogueData[roomNum] = "shadow room";
 	bombTypeData[roomNum] = bombType.base;
@@ -89,7 +95,7 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 12; 
-	roomDialogueData[roomNum] = "";
+	roomDialogueData[roomNum] = "HMPH, THERE'S NO WAY TO CROSS THAT GAP! I GUESS IT'S 'GAME OVER'...";
 	bombTypeData[roomNum] = bombType.remote;
 	darkAlpha[roomNum] = .6
 	darkColor[roomNum] = make_color_rgb(30,0,50)
