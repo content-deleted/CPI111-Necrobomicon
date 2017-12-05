@@ -1,6 +1,8 @@
 ///@param curRoom
+///@param prevRoom
 //Here we bound the camera to what we know will be the room restriction
 var curRoom = argument0;
+var prevRoom = argument1;
 
 var tilemapId = layer_tilemap_get_id("roomTiles");
 var CameraId = view_camera[0];
@@ -72,8 +74,11 @@ if(rightBound - leftBound > tWidth)
 	hScroll = true;
 
 //set up variables for lerp
-linearSpeed = 0.025;
-linearAmount = 0;
+linearSpeed = 0.033;
+
+//don't scroll screen if it's the first one
+if(prevRoom ==0) linearAmount = 1;
+else linearAmount = 0;
 
 
 

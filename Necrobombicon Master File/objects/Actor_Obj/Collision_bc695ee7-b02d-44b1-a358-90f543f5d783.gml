@@ -7,5 +7,7 @@ if(destroyOnCollide){
 	other.isCollidingX =true;
 }
 	
-if(isSolid&&canPush) addVector(other,2+sqrt(power(xSpeed,2) + power(ySpeed,2)),point_direction(x,y,other.x,other.y),10,self.id);
-//note: remember to add handler for friction later (currently set to 10 as a default)
+if(isSolid&&canPush){
+	if(instance_exists(other))//check that it didnt explod or somthing
+		addVector(other,2+sqrt(power(xSpeed,2) + power(ySpeed,2)),point_direction(x,y,other.x,other.y),10,"push");
+} //note: remember to add handler for friction later (currently set to 10 as a default)

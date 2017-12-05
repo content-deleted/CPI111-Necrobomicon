@@ -11,7 +11,8 @@
         "985253a3-78f6-4b61-945b-2311e8f6c3bb",
         "2501e714-24c8-4c73-85b9-aec9a9a56f85",
         "7b0e4ee3-06c6-40e5-a324-dcb0ce03cba8",
-        "621e2d54-2efa-4314-8f4a-1273cc08916a"
+        "621e2d54-2efa-4314-8f4a-1273cc08916a",
+        "60777a8d-0c3c-46c1-8830-4983f8a48e63"
     ],
     "filterType": "GMScript",
     "folderName": "HelperScripts",

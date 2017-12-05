@@ -63,7 +63,7 @@ if(eventControllersData[previousRoom] != pointer_null){//set the data
 //finally switch out the room
 currentRoom = newRoom;
 
-setCameraBound(currentRoom);
+setCameraBound(currentRoom,previousRoom);
 
 //here we set the start location of the room
 //if you think of a better way to do it change this please

@@ -16,12 +16,15 @@ var curRightBound =rightBound;
 var curLeftBound =leftBound;
 
 //check lerp
-if(linearAmount != 1){
+if(linearAmount < 1){
 	var curBottomBound = lerp(bottomBoundOld,bottomBound,linearAmount);
 	var curTopBound = lerp(topBoundOld, topBound, linearAmount);
 	var curRightBound = lerp(rightBoundOld, rightBound, linearAmount);
 	var curLeftBound = lerp(leftBoundOld, leftBound, linearAmount);
 	linearAmount += linearSpeed;
+	//testing how this looks you can change it back 
+	if(linearAmount >= .99){ global.actor_allowUpdate = true;}
+	else{ global.actor_allowUpdate = false; }
 }
 
 //check if the camera is out of bounds and move it back if so

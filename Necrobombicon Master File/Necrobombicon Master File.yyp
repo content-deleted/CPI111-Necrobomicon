@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "60777a8d-0c3c-46c1-8830-4983f8a48e63",
+            "Value": {
+                "id": "ed693cfd-287d-43cc-b10d-a12ad285a783",
+                "resourcePath": "scripts\\clearVectors\\clearVectors.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "60e6ae4f-9e7d-4575-8a59-a9c0b2250146",
             "Value": {
                 "id": "0b577ca0-3666-4359-8bfb-e56fefec1993",
@@ -1036,6 +1044,14 @@
                 "id": "a0f1b2a5-1591-4a9f-93f6-a77f8ca42fb9",
                 "resourcePath": "sounds\\sfx_dialogue2\\sfx_dialogue2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "773288c9-b043-4905-8e71-4f59f0bea627",
+            "Value": {
+                "id": "bb8e231e-b8e8-4405-a141-87e6726a15bd",
+                "resourcePath": "shaders\\outline\\outline.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -1511,6 +1527,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "03eb91c4-559a-42f2-829f-d656d557d80d",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "ac9ec9d6-1522-40f7-9890-a39d88043ef1",
             "Value": {
                 "id": "dcd1aabf-f4a8-4e03-93ea-cd2dedc42680",
@@ -1748,6 +1772,14 @@
                 "id": "2dc200aa-c395-45de-ac91-656644928100",
                 "resourcePath": "views\\c6d69763-51a4-4752-b152-028b9d2505e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c7d1d20f-969a-4e44-a5b7-a5dc29f01f52",
+            "Value": {
+                "id": "2046957e-98a3-4f9a-8b73-cb0dc58e0b3e",
+                "resourcePath": "shaders\\outline\\outline.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -2223,6 +2255,14 @@
             }
         },
         {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "eb58b44d-687e-4e80-be2d-f4095075c5ba",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
             "Key": "f53647e5-48aa-48be-80a3-4a211c29a46d",
             "Value": {
                 "id": "cca428de-329d-45c6-bbb7-225563b82aba",
@@ -2348,6 +2388,7 @@
         "2501e714-24c8-4c73-85b9-aec9a9a56f85",
         "7b0e4ee3-06c6-40e5-a324-dcb0ce03cba8",
         "621e2d54-2efa-4314-8f4a-1273cc08916a",
+        "60777a8d-0c3c-46c1-8830-4983f8a48e63",
         "81a41315-8a3b-47a7-8845-50082faf8d1c",
         "81ccee3e-36ae-4db4-a58d-1d56d91524c6",
         "c5d33fa9-f190-414e-93a0-31e0fabea5cf",
