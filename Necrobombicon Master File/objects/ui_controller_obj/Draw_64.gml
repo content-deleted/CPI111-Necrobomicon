@@ -1,6 +1,6 @@
 /// @description Forgive me, for I have sinned
-currentX = 25;
-currentY = camera_get_view_height(view_camera[0]) - sprite_get_height(hp_base);
+currentX = 5;
+currentY = camera_get_view_height(view_camera[0]) - sprite_get_height(hp_base)/2 +10;
 
 draw_set_font(font_explorer);
 if (global.gamePaused) // if game is paused
@@ -18,16 +18,25 @@ if (global.gamePaused) // if game is paused
 
 // health bar
 if (Player_obj.healthCurrent > .5 * Player_obj.healthMax)
-	draw_sprite(hp_base,0,currentX,currentY);
+	draw_sprite_ext(hp_base,0,currentX,currentY,.5,.5,0,c_white,1);
 else if (Player_obj.healthCurrent > .25 * Player_obj.healthMax)
-	draw_sprite(hp_base,1,currentX,currentY);
+	draw_sprite_ext(hp_base,1,currentX,currentY,.5,.5,0,c_white,1);
 else
-	draw_sprite(hp_base,2,currentX,currentY);
+	draw_sprite_ext(hp_base,2,currentX,currentY,.5,.5,0,c_white,1);
+var horzOffset = 32;
 for (i = 1; i <= Player_obj.healthCurrent; i++)
 {
-	draw_sprite(hp_fuse,i mod 2,currentX + 70,currentY - (i * sprite_get_height(hp_fuse)));
+	draw_sprite_ext(hp_fuse,i mod 2,currentX + horzOffset,currentY - (i * sprite_get_height(hp_fuse)/2),0.5,0.5,0,c_white,1);
 }
-currentX += sprite_get_width(hp_base) + 10;
+
+image_speed = 0.2 //set the animation speed
+//check which fire to draw
+if(Player_obj.healthCurrent mod 2) draw_sprite_ext(hp_fire_right,-1,currentX + horzOffset-35,currentY - (Player_obj.healthCurrent * sprite_get_height(hp_fuse)/2),0.5,0.5,0,c_white,1);
+else draw_sprite_ext(hp_fire_left,-1,currentX + horzOffset-25,currentY - (Player_obj.healthCurrent * sprite_get_height(hp_fuse)/2),0.5,0.5,0,c_white,1);
+
+currentX += sprite_get_width(hp_base)/2 + 10;
+currentY +=30;//one day we will pay for our sins
+
 // bomb icon
 draw_sprite(sigil_bkg,0,currentX,currentY);	// background image
 currentX += 48;
@@ -61,7 +70,7 @@ currentX += sprite_get_width(sigil_bkg) + 10;
 draw_sprite_stretched(book_talk_spr,0,currentX,currentY,100,100)
 //dialogue
 currentX += 80
-currentY -= 20
+currentY -= 35
 if (string_length(UI_BottomDialogue.textContent)>0) {
 	draw_sprite(speech_bubble_spr,0,currentX,currentY)
 }
