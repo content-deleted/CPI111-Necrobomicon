@@ -55,7 +55,7 @@ if(Player_obj.y -topBound <= border)
 if(bottomBound - Player_obj.y <= border)
 	yB = 0;
 	
-if(linearAmount==1){//we're not lerpin'
+if(linearAmount>=1){//we're not lerpin'
 	if(camera_get_view_border_x(CameraId) != xB || camera_get_view_border_y(CameraId) != yB)
 		camera_set_view_border(CameraId,xB,yB);
 }

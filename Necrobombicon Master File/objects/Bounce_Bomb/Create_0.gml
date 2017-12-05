@@ -5,3 +5,4 @@ numBounces = 0;
 destroyOnCollide = false;
 intendedDir = Player_obj.intendedDir;
 intendedSpeed = 6;
+canFall = false;
