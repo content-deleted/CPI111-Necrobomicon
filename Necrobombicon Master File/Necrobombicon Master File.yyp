@@ -1535,6 +1535,14 @@
             }
         },
         {
+            "Key": "a8d39565-4f8b-427f-b9d0-558bb13a12ce",
+            "Value": {
+                "id": "f88e0d1f-e941-48ae-8255-2a83f9e932b5",
+                "resourcePath": "objects\\finalmusichack\\finalmusichack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac9ec9d6-1522-40f7-9890-a39d88043ef1",
             "Value": {
                 "id": "dcd1aabf-f4a8-4e03-93ea-cd2dedc42680",
@@ -1699,6 +1707,14 @@
             "Value": {
                 "id": "f0a81691-8f6a-4aae-ac3d-3de447646c27",
                 "resourcePath": "sounds\\sfx_gjFallDeath3\\sfx_gjFallDeath3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c1cc3569-1721-438b-86a3-80b28a879036",
+            "Value": {
+                "id": "08544ab0-b615-4e46-a045-9c4f12064c0c",
+                "resourcePath": "sounds\\mus_final\\mus_final.yy",
                 "resourceType": "GMSound"
             }
         },

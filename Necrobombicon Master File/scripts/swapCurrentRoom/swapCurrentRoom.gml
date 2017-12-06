@@ -7,9 +7,6 @@ show_debug_message("going from room " +string(previousRoom) + " to " + string(ne
 
 currentBombType = bombTypeData[newRoom];
 
-//Update Dialogue
-currentDialogue = roomDialogueData[newRoom];
-
 //Room Modifiers
 timedRoom = timedRoomData[newRoom];
 if (timedRoom)
@@ -101,6 +98,8 @@ with(Player_obj){
 if (!visited[newRoom]) {
 	//let the UI controller we've entered a new room
 	with (ui_controller_obj) {event_user(0)}
+	//Update Dialogue
+	currentDialogue = roomDialogueData[newRoom]
 	//play the dialogue sound for the room
 	if (dialogueSound[newRoom] != 0) {
 		audio_stop_sound(sfx_dialogue1)

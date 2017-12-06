@@ -103,7 +103,7 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 11; 
-	roomDialogueData[roomNum] = "HERE AT MY LOUNGE, DISCO ISN'T DEAD...%|IT'S UNDEAD! %HA HA!!! I'M HILARIOUS.%%|ANYWAY. SHOW THOSE SKELETONS YOUR 'KILLER MOVES'...%|(THAT MEANS KILL THEM.)%%%|";
+	roomDialogueData[roomNum] = "HERE AT MY LOUNGE, DISCO ISN'T DEAD...%%%|%IT'S UNDEAD! %%HA HA!!! I'M HILARIOUS.%%%|ANYWAY. SHOW THOSE SKELETONS YOUR 'KILLER MOVES'...%%|(THAT MEANS KILL THEM.)%%%|";
 	dialogueSound[roomNum] = sfx_dialogue2
 	bombTypeData[roomNum] = bombType.base;
 	
