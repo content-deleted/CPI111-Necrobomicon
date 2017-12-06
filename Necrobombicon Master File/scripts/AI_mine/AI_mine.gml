@@ -14,6 +14,7 @@ if ( global.actor_allowUpdate && canMove && !isInvincible )
 		// bounce code
 		if(isCollidingX || isCollidingY)
 		{
+			playSoundAtSelf(choose(sfx_thud1,sfx_thud2));
 			if (isCollidingX)
 			{
 				if ((intendedDir > 270) && (intendedDir < 360)) //southeast
@@ -51,6 +52,7 @@ if ( global.actor_allowUpdate && canMove && !isInvincible )
 			}
 		}
 	}
+	
 	if (intendedSpeed > 1)
 		intendedSpeed -= .05;
 	timer++;

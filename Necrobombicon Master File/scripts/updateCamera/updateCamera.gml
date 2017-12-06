@@ -4,7 +4,7 @@ var CameraId = view_camera[0];
 
 //set this in one place so its not confusing for people
 //this is the size of the follow border in pixels
-var border = 250;
+var border = 350;
 var xB;
 var yB;
 if(hScroll) xB = border; else xB = 0;
