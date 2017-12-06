@@ -14,3 +14,5 @@ dataEnd = 0;
 for(var i = dataStart; i<=dataEnd; i++){ //expand as needed
 	correctEventFlags[i] = false;
 }
+
+image_blend= c_gray;
