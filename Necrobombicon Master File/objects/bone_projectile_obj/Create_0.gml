@@ -12,3 +12,4 @@ for (i = 0; i <= 3; i++) // represents different anim types, increment the 3 if 
 isInvincible=false;
 healthMax=1;
 healthCurrent=1;
+damage = 1;

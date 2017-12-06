@@ -39,7 +39,7 @@ case 1://this is the first floor of the game
 	dialogueSound[roomNum] = sfx_dialogue3
 	bombTypeData[roomNum] = bombType.rocket;
 	
-	darkAlpha[roomNum] = .7
+	darkAlpha[roomNum] = .5
 	darkColor[roomNum] = make_color_rgb(100,20,0)
 	
 	timedRoomData[roomNum] = true;
@@ -67,7 +67,7 @@ case 1://this is the first floor of the game
 	roomDialogueData[roomNum] = "WOW, THIS ROOM IS SCARY!%%% GOOD THING I'M NOT PLAYING...%%%%|BY THE WAY, THE FINAL ROOM OF THE DEMO IS JUST AHEAD...%%|I HOPE YOU'RE READY!%%%|";
 	dialogueSound[roomNum] = sfx_dialogue1
 	bombTypeData[roomNum] = bombType.bounce;
-	darkAlpha[roomNum] = .5
+	darkAlpha[roomNum] = .3
 	darkColor[roomNum] = make_color_rgb(40,0,60)
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////

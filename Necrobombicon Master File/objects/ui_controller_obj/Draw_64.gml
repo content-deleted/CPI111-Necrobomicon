@@ -23,7 +23,7 @@ if (Player_obj.healthCurrent > .5 * Player_obj.healthMax)
 	draw_sprite_ext(hp_base,0,currentX,currentY,.5,.5,0,c_white,1);
 else if (Player_obj.healthCurrent > .25 * Player_obj.healthMax)
 	draw_sprite_ext(hp_base,1,currentX,currentY,.5,.5,0,c_white,1);
-else
+else if (Player_obj.healthCurrent > 0)
 	draw_sprite_ext(hp_base,2,currentX,currentY,.5,.5,0,c_white,1);
 var horzOffset = 32;
 for (i = 1; i <= Player_obj.healthCurrent; i++)
