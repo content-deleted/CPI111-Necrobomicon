@@ -27,10 +27,10 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 1 start
 	roomNum = 1; 
-	roomDialogueData[roomNum] = "HELLO WORLD!";
+	roomDialogueData[roomNum] = "THANKS FOR PLAYING OUR DEMO!";
 	bombTypeData[roomNum] = bombType.remote;
 	
-	darkAlpha[roomNum] = 0.7
+	darkAlpha[roomNum] = 0.2
 	disco[roomNum] = true
 	/////////////////////////////////////////////////////
 	//room2 start
@@ -39,8 +39,11 @@ case 1://this is the first floor of the game
 	dialogueSound[roomNum] = sfx_dialogue3
 	bombTypeData[roomNum] = bombType.rocket;
 	
+	darkAlpha[roomNum] = .7
+	darkColor[roomNum] = make_color_rgb(100,20,0)
+	
 	timedRoomData[roomNum] = true;
-	maxTimeData[roomNum] = 20;
+	maxTimeData[roomNum] = 30;
 	/////////////////////////////////////////////////////
 	//room 3 start
 	roomNum = 3; 
@@ -62,7 +65,10 @@ case 1://this is the first floor of the game
 	//room 5 start
 	roomNum = 5; 
 	roomDialogueData[roomNum] = "WOW, THIS ROOM IS SCARY!%%% GOOD THING I'M NOT PLAYING...%%%%|BY THE WAY, THE FINAL ROOM OF THE DEMO IS JUST AHEAD...%%|I HOPE YOU'RE READY!%%%|";
+	dialogueSound[roomNum] = sfx_dialogue1
 	bombTypeData[roomNum] = bombType.bounce;
+	darkAlpha[roomNum] = .5
+	darkColor[roomNum] = make_color_rgb(40,0,60)
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 6 start
