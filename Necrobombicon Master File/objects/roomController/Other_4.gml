@@ -13,6 +13,8 @@ enum bombType {
 	grenade
 }
 
+visited = []
+
 //camera control vars
 
 topBound = 0
@@ -38,8 +40,10 @@ shakeH = false
 
 //for lighting
 dark_surface = surface_create(surface_get_width(application_surface),surface_get_height(application_surface))
-currentDarkAlpha = 0.8 //between 0 and 1 (0=no lighting, 1=pitch black
-currentDarkColor = make_color_rgb(0,0,30)
+newDarkAlpha = 0.8 //between 0 and 1 (0=no lighting, 1=pitch black
+newDarkColor = make_color_rgb(0,0,30)
+currentDarkAlpha = newDarkAlpha
+currentDarkColor = newDarkColor
 darkAlpha = []
 darkColor = []
 disco = []

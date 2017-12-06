@@ -24,8 +24,9 @@ bombMagnet = bombMagnetData[newRoom];
 
 //Lighting
 isDisco = disco[newRoom]
-currentDarkAlpha = darkAlpha[newRoom]
-currentDarkColor = darkColor[newRoom]
+newDarkAlpha = darkAlpha[newRoom]
+newDarkColor = darkColor[newRoom]
+alarm[5] = 2*room_speed
 
 //Shaders
 enableShader = enableShaderData[newRoom];
@@ -97,7 +98,18 @@ with(Player_obj){
 //show_debug_message("entX:"+string(roomEntrenceX) + "entY:"+string(roomEntrenceY))
 //show_debug_message("PlayerX:"+string(Player_obj.x) + "entY:"+string(Player_obj.y))
 
-//let the UI controller we've entered a new room
-with (ui_controller_obj) {event_user(0)}
-//play the dialogue sound for the room
-if (dialogueSound[newRoom] != 0) {audio_play_sound(dialogueSound[newRoom],2,false)}
+if (!visited[newRoom]) {
+	//let the UI controller we've entered a new room
+	with (ui_controller_obj) {event_user(0)}
+	//play the dialogue sound for the room
+	if (dialogueSound[newRoom] != 0) {
+		audio_stop_sound(sfx_dialogue1)
+		audio_stop_sound(sfx_dialogue2)
+		audio_stop_sound(sfx_dialogue3)
+		audio_stop_sound(sfx_dialogue4)
+		audio_stop_sound(sfx_dialogue5)
+		audio_stop_sound(sfx_dialogue6)
+		audio_play_sound(dialogueSound[newRoom],2,false)
+	}
+	visited[newRoom] = true
+}

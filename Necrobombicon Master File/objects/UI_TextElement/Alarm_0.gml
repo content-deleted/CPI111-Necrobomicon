@@ -6,11 +6,11 @@ if string_length(textQueue) > 0 {
 	//handle special characters
 	switch (newChar) {
 		case ".": //delay for extra time
-			alarm[0] += 6*round(room_speed*textSecondsDelay)
+			alarm[0] += 8*round(room_speed*textSecondsDelay)
 		break
 		
 		case ",": //don't delay as long
-			alarm[0] += 2*round(room_speed*textSecondsDelay)
+			alarm[0] += 4*round(room_speed*textSecondsDelay)
 		break
 		
 		case "|": // clear string
@@ -19,7 +19,7 @@ if string_length(textQueue) > 0 {
 		break
 		
 		case "%":
-			alarm[0] += 8*round(room_speed*textSecondsDelay)
+			alarm[0] += 12*round(room_speed*textSecondsDelay)
 			append = false
 		break
 	}

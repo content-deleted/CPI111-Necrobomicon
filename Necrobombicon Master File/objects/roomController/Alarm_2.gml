@@ -3,6 +3,6 @@
 
 if (isDisco) {
 	discoHue = discoHue+50 mod 255
-	currentDarkColor = make_color_hsv(round(discoHue),255,40)
+	newDarkColor = make_color_hsv(round(discoHue),255,40)
 }
-alarm[2] = room_speed/2
+alarm[2] = room_speed*2

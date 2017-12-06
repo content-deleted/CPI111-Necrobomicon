@@ -60,59 +60,68 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 5 start
 	roomNum = 5; 
-	roomDialogueData[roomNum] = "this room is a wide boi";
-	bombTypeData[roomNum] = bombType.base;
+	roomDialogueData[roomNum] = "THE FINAL ROOM OF THE DEMO IS JUST AHEAD... I HOPE YOU'RE READY!%%%|";
+	bombTypeData[roomNum] = bombType.fuse;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 6 start
 	roomNum = 6; 
-	roomDialogueData[roomNum] = "THIS IS THE BEGINNING OF THE TECH DEMO!%%%|[THE 'DEMO' IS SHORT FOR DEMOLITION.]%%%|I'M THE NECROBOMBICON. I JUST TURNED YOU INTO A GOBLIN.%%|I'M GONNA CALL YOU 'GOBLIN JONES.' YOU FINE WITH THAT, GOBLIN JONES?%%|PRESS THE [DOWN] KEY TO TELL ME YOU'RE FINE WITH IT."
+	roomDialogueData[roomNum] = "THIS IS THE BEGINNING OF THE TECH DEMO!%%%%%%|[THE 'DEMO' IS SHORT FOR DEMOLITION.]%%%|I'M THE NECROBOMBICON. I JUST TURNED YOU INTO A GOBLIN.%%|I'M GONNA CALL YOU 'GOBLIN JONES.' YOU FINE WITH THAT, GOBLIN JONES?%%|PRESS THE [DOWN] KEY TO TELL ME YOU'RE FINE WITH IT."
 	bombTypeData[roomNum] = bombType.remote;
-	darkAlpha[roomNum] = .6
-	darkColor[roomNum] = make_color_rgb(40,35,30)
-	dialogueSound[roomNum] = sfx_dialogue1
+	darkAlpha[roomNum] = .7
+	darkColor[roomNum] = make_color_rgb(30,35,40)
+	dialogueSound[roomNum] = sfx_dialogue5
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 7
 	roomDialogueData[roomNum] = "GOOD JOB PRESSING THE DOWN KEY, JONES. I KNEW I COULD COUNT ON YOU.%%%|I FEEL LIKE WE'RE ALREADY BECOMING FRIENDS.%%|PERHAPS IT'S TIME I INVITE YOU INTO MY HOME...%%%|"
+	dialogueSound[roomNum] = sfx_dialogue1
+	darkAlpha[roomNum] = .7
+	darkColor[roomNum] = make_color_rgb(40,35,30)
 	bombTypeData[roomNum] = bombType.base
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 8
 	roomDialogueData[roomNum] = "WELCOME, JONES, TO MY PRIVATE LOUNGE% (AND ETERNAL PRISON).%%|I CHOSE THE DECOR MYSELF! IT'S QUITE LOVELY, AS YOU CAN SEE...%|BUT IT'S MISSING A LITTLE SOMETHING.%%% IT'S MISSING...EXPLOSIONS.%%%%%|PRESS [SPACE] TO THROW A BOMB. YOU KNOW YOU WANT TO.%%|"
+	dialogueSound[roomNum] = sfx_dialogue4
 	bombTypeData[roomNum] = bombType.base;
-	darkColor[roomNum] = make_color_rgb(40,30,20)
+	darkAlpha[roomNum] = 0.2
+	darkColor[roomNum] = make_color_rgb(50,40,20)
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 9
-	roomDialogueData[roomNum] = "shadow room|";
+	roomDialogueData[roomNum] = "YOU'RE NOT THE FIRST EXPLORER TO COME THIS WAY.%%|BEHOLD THE FATE OF THOSE WHO FAIL TO ESCAPE!%%%|";
+	dialogueSound[roomNum] = sfx_dialogue4
 	bombTypeData[roomNum] = bombType.base;
 	
 	darkAlpha[roomNum] = .7
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 10
-	roomDialogueData[roomNum] = "landmine room|";
-	bombTypeData[roomNum] = bombType.fuse;
+	roomDialogueData[roomNum] = "THINK FAST!%%%|%%%%HEY, YOU DID IT. NICE.|"
+	bombTypeData[roomNum] = bombType.remote
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 11; 
-	roomDialogueData[roomNum] = "disco room|";
+	roomDialogueData[roomNum] = "HERE AT MY LOUNGE, DISCO ISN'T DEAD...%|IT'S UNDEAD! %HA HA!!! I'M HILARIOUS.%%|ANYWAY. SHOW THOSE SKELETONS YOUR 'KILLER MOVES'...%|(THAT MEANS KILL THEM.)%%%|";
+	dialogueSound[roomNum] = sfx_dialogue2
 	bombTypeData[roomNum] = bombType.base;
 	
-	darkAlpha[roomNum] = 0.7
+	darkAlpha[roomNum] = 0.6
 	disco[roomNum] = true
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 12; 
 	roomDialogueData[roomNum] = "HMPH, THERE'S NO WAY TO CROSS THAT GAP! I GUESS IT'S 'GAME OVER'...%%|";
+	dialogueSound[roomNum] = sfx_dialogue6
 	bombTypeData[roomNum] = bombType.remote;
-	darkAlpha[roomNum] = .6
-	darkColor[roomNum] = make_color_rgb(30,0,50)
+	darkAlpha[roomNum] = .7
+	darkColor[roomNum] = make_color_rgb(40,0,60)
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 13; 
-	roomDialogueData[roomNum] = "chain chomp room";
+	roomDialogueData[roomNum] = "AH, THESE ARE MY PETS. AREN'T THEY JUST PRECIOUS?%%|THEY DON'T SEEM TOO HAPPY TO SEE YOU, THOUGH...%|MAYBE WE SHOULD LET THEM OFF THEIR LEASHES.%%|";
+	dialogueSound[roomNum] = sfx_dialogue2
 	bombTypeData[roomNum] = bombType.bounce;
 	darkAlpha[roomNum] = .4
 	darkColor[roomNum] = make_color_rgb(30,10,0)
