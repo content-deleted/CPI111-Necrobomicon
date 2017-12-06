@@ -85,14 +85,19 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	roomNum = 9
-	roomDialogueData[roomNum] = "shadow room";
+	roomDialogueData[roomNum] = "shadow room|";
 	bombTypeData[roomNum] = bombType.base;
 	
 	darkAlpha[roomNum] = .7
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
+	roomNum = 10
+	roomDialogueData[roomNum] = "landmine room|";
+	bombTypeData[roomNum] = bombType.fuse;
+	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
 	roomNum = 11; 
-	roomDialogueData[roomNum] = "HELLO WORLD!";
+	roomDialogueData[roomNum] = "disco room|";
 	bombTypeData[roomNum] = bombType.base;
 	
 	darkAlpha[roomNum] = 0.7
