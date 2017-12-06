@@ -35,11 +35,12 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room2 start
 	roomNum = 2; 
-	roomDialogueData[roomNum] = "HELLO AGAIN!";
-	bombTypeData[roomNum] = bombType.bounce;
+	roomDialogueData[roomNum] = "THIS IS IT.% THE FINAL ROOM.% YOU KNOW WHAT TO DO...%%|DESTROY THEM ALL!!!%%%|"
+	dialogueSound[roomNum] = sfx_dialogue3
+	bombTypeData[roomNum] = bombType.rocket;
 	
 	timedRoomData[roomNum] = true;
-	maxTimeData[roomNum] = 1.2;
+	maxTimeData[roomNum] = 20;
 	/////////////////////////////////////////////////////
 	//room 3 start
 	roomNum = 3; 
@@ -60,8 +61,8 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 5 start
 	roomNum = 5; 
-	roomDialogueData[roomNum] = "THE FINAL ROOM OF THE DEMO IS JUST AHEAD... I HOPE YOU'RE READY!%%%|";
-	bombTypeData[roomNum] = bombType.fuse;
+	roomDialogueData[roomNum] = "WOW, THIS ROOM IS SCARY!%%% GOOD THING I'M NOT PLAYING...%%%%|BY THE WAY, THE FINAL ROOM OF THE DEMO IS JUST AHEAD...%%|I HOPE YOU'RE READY!%%%|";
+	bombTypeData[roomNum] = bombType.bounce;
 	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 6 start
